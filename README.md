@@ -38,13 +38,14 @@ git config --global user.email "your_email_address@example.com"
 Paso 3: Clona el repositorio.
 Aquí hay dos opciones. Utilizar SSH o HTTP. En este caso usaremos HTTP.
 ```
-git clone https://gitlab.com/alexcdev95/rtr-spanish.git
+git clone https://github.com/raskardev/rtr-spanish.git
 ```
-Paso 4: Descargar la rama principal
+Paso 4: Descargar la rama develop donde realizar la traducción
 ```
-git checkout master
-git pull REMOTE master
+git checkout develop
+git pull REMOTE develop
 ```
+
 Con esto ya tendremos el repositorio descargado localmente en nuestro ordenador.
 
 

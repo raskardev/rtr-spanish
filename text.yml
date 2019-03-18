@@ -6176,33 +6176,33 @@ helpTip:
   
   tip:
     sandboxModeHeader:
-      text: "Sandbox Mode!"
+      text: "Modo Sandbox!"
     sandboxMode:
-      text: "Welcome to Sandbox Mode! Sandbox mode allows you to play around with the game engine and abuse the mechanics. You can spawn in mobs, place pre-built buildings, draw on the terrain, and all sorts of other fun things. Just be warned, sandbox mode allows you to do things well beyond the designed limitations of the game. Abusing the game too much in sandbox mode can cause the game to overload and freeze. You've been warned! Have fun. :)"
+      text: "Bienvenido al modo Sandbox! Este modo te permite jugar con el motor del juego y exprimir las mecánicas. Puedes soltar npcs, colocar edificios prehechos, dibujar sobre el terreno, y todo tipo de cosas divertidas. Ten cuidado, el modo Sandbox te permite hacer cosas más allá de las limitaciones diseñadas del juego. Abusar demasiado del modo podría sobrecargar o congelar el juego. Has sido advertido! Divertete. :)"
     gameSpeedHeader:
-      text: "SPEED CONTROLS WARNING!"
+      text: "Controles de Velocidad. ¡CUIDADO!"
     gameSpeed:
-      text: "Speed controls are still very new, and experimental. $RED1Setting the controls beyond 2x may cause severe performance problems late game.$WHI0 Use at your own risk! If the game becomes non-responsive, you can $GRE1press spacebar to pause the game, and lower the game speed before unpausing."
+      text: "Los controles de velocidad todavía son nuevos y experimentales. $RED1Configurar los controles por encima de 2x puede causar graves problemas de rendimiento en las fases finales del juego. $WHI0 ¡Úsalo bajo tu propia responsabilidad! Si el juego no responde, puedes $GRE1 pulsar la barra espaciadora para pausar el juego y bajar la velocidad."
     worldMapWelcomeHeader:
-      text: "Welcome!"
+      text: "Bienvenido!"
     worldMapWelcome:
-      text: "Welcome to Rise to Ruins. For your first village you may select any region you'd like by clicking on the lit up boxes, and then clicking 'Establish Village'. From there you will be provided some first time free villagers to get you started. You can only select any region on the map you want once. After you've established your primary village you will be able to spread out from that region into connecting regions, so choose wisely! For now though, just focus on developing your first village!"
+      text: "Bienvenido a Rise to Ruins. Para tu primera aldea debes seleccionar una región que te guste haciendo click en las casillas iluminadas, y después haciendo click en 'Establecer Aldea'. A partir de ahí, se te proporcionarán algunos aldeanos gratis para que comiences. Sólo puedes seleccionar una vez una región en el mapa que desees. Una vez que hayas establecido tu aldea principal, puedes extenderte desde esa región a regiones conectadas, ¡así que elige sabiamente! Por ahora, céntrate en desarrollar tu primera aldea."
     worldMapMigrationHeader:
-      text: "Migrate!"
+      text: "Emigrar!"
     worldMapMigration:
-      text: "You have enough villagers to migrate to $YEL1{regionName}$WHI0! If you're ready, just click on the region and click 'Establish Village'. Once you place your new camp, they will arrive shortly after. Unlike your first region, you will get no free villagers or resources."
+      text: "¡Tienes suficientes aldeanos para migrar a $YEL1{regionName}$WHI0! Si estás listo, simplemente pulsa en la región y haz click en 'Establecer aldea'. Una vez hayas colocado tu nuevo campamento, los aldeanos llegarán poco después. Al contrario de tu primera región, aquí no obtendrás aldeanos o recursos gratis."
     welcomeCampHeader:
-      text: "The Camp"
+      text: "El Campamento"
     welcomeCamp:
-      text: "Welcome to your first region! The first thing you should do is place your $YEL1Camp$WHI0 somewhere! A good starting location should have some rocks, trees, crystals, food and water nearby. To place your camp, first press $GRE1'OK!'$WHI0 to close this tip and automatically unpause the game, $GRE1then select the flashing 'Place Camp' button to the right.~~$WHI1 Good luck!"
+      text: "'Bienvenido a tu primera región!La primera cosa que deberías hacer es colocar tu $YEL1Campamento$WHI0 en algún lugar. Un buen lugar debe tener piedras, árboles, cristales, alimento y agua cerca. Para colocar el campamento, primero pulsa $GRE1'OK!'$WHI0 para cerrar este consejo y automaticamente se reanudará el juego, $GRE1 después selecciona el botón de la derecha que parpadea 'Colocar Campamento'. ~~$WHI1 ¡Buena Suerte!"
     welcomeTipsHeader:
-      text: "Tips!"
+      text: "Consejos!"
     welcomeTips:
-      text: "Time to get started! Since this is your first time, you will be getting tons of in-game tips while you play. $RED1This game has a steep learning curve$WHI0, and you'll need all the help you can get! $GRE1The game is paused when a tip is being displayed$WHI0, so please take the time to read them!~~You can turn off tips in the settings menu, but if you've never played before this is not recommended!"
+      text: "¡Hora de empezar! Ya que esta es tu primera vez, recibirás un montón de consejos dentro del juego mientras juegas. $RED1Este juego tiene una curva de aprendizaje bastante empinada$WHI0, ¡y necesitarás toda la ayuda que puedas! $GRE1 El juego se pausa cuando se muestra un consejo$WHI0, por favor, ¡tómate tu tiempo para leerlo!~~Puedes desactivar los consejos en el menú de opciones, pero si nunca has jugado antes, ¡no se recomienda!"
     harvestingResourcesHeader:
-      text: "Harvesting Resources"
+      text: "Recolección de Recursos"
     harvestingResources:
-      text: "Many workers assigned to buildings like the $YEL1Lumber Shack$WHI0, $YEL1Mining Facility$WHI0 and $YEL1Village Center$WHI0 are allowed to harvest resources on the map like wood and rock. You can assign work by using the $GRE1harvest assignment buttons along the bottom left of the GUI $WHI0 for the material you'd like to collect, then select the resource on the map. If you have workers that are allowed to collect the resources, they will do so on their own!"
+      text: "Algunos trabajadores asignados a edificios como la $YEL1Cabaña de Madera$WHI0, la $YEL1Instalación Minera$WHI0 y el $YEL1Centro del Pueblo$WHI0 Se les permite recolectar recursos del mapa como madera y piedras. Puedes asignar trabajos usando los $GRE1botones de asignación de recolección a lo largo de la parte inferior izquierda de la interfaz de usuario $WHI0 para los recursos que quieras recolectar, luego selecciona un recurso del mapa. Si tienes trabajadores que asignados a recolectar los recursos, ¡ellos lo harán automáticamente por su cuenta!"
     villageWorkersHeader:
       text: "Workers"
     villageWorkers:
@@ -7705,91 +7705,91 @@ mobJob:
   
   unassigned:
     single:
-      text: "Unassigned"
+      text: "Sin asignar"
     plural:
-      text: "Unassigned"
+      text: "Sin asignar"
     description:
-      text: "A lazy slacker who does absolutely nothing of value."
+      text: "Un holgazán perezoso que no hace absolutamente nada de valor."
 
   builder:
     single:
-      text: "Builder"
+      text: "Constructor"
     plural:
-      text: "Builders"
+      text: "Constructores"
     description:
-      text: "A staple job in your village, builders will make sure everything is built and repaired. They will also harvest materials, but only when they need them to build something and none is available."
+      text: "Un trabajo básico en la aldea, los constructores se asegurarán de que todo esté construido y reparado. También recolectarán recursos, pero solo cuando los necesiten para construir algo y ninguno esté disponible."
 
   carpenter:
     single:
-      text: "Carpenter"
+      text: "Carpintero"
     plural:
-      text: "Carpenters"
+      text: "Carpinteros"
     description:
-      text: "Turns wood into boards for more advanced structures."
+      text: "Convierte la madera en tablas para estructuras avanzadas."
 
   crystiller:
     single:
-      text: "Crystiller"
+      text: "Cristalero"
     plural:
-      text: "Crystillers"
+      text: "Cristaleros"
     description:
-      text: "Turns crystals into crylithium, a power source for essence collectors and other buildings."
+      text: "Converte el cristal en Crylitio, una fuente de poder para los colectores de esencia y otros edificios."
 
   crystalHarvester:
     single:
-      text: "Crystal Harvester"
+      text: "Recolector de Cristal"
     plural:
-      text: "Crystal Harvesters"
+      text: "Recolectores de Cristal"
     description:
-      text: "Harvests raw crystals on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+      text: "Recolecta cristales en bruto del mapa y los almacena en la aldea. Continuará recolectando sin parar independientemente de las necesidades de la aldea."
 
   farmer:
     single:
-      text: "Granjaer"
+      text: "Granjero"
     plural:
-      text: "Granjaers"
+      text: "Granjeros"
     description:
-      text: "Harvests raw food, plants it in farms, and keeps farms well tended to and watered to encourage growth. Typically, the more farmers you have the faster your farms will produce food."
+      text: "Recolecta la comida cruda, plantan en las granjas, y las mantienen bien atendidas para asegurarse de que crecen. Por lo general, cuantos más granjeros tengas, más rápido producirán tus granjas."
 
   fletcher:
     single:
-      text: "Fletcher"
+      text: "Flechero"
     plural:
-      text: "Fletchers"
+      text: "Flecheros"
     description:
-      text: "Turns wood into arrow bundles to be used in bow towers."
+      text: "Convierte la madera en flechas para ser utilizadas en las torres de arqueros."
 
   lumberjack:
     single:
-      text: "Lumberjack"
+      text: "Leñador"
     plural:
-      text: "Lumberjacks"
+      text: "Leñadores"
     description:
-      text: "Harvests wood on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+      text: "Corta madera del mapa y la almacena en la aldea. Continuarán recolectando sin parar independientemente de las necesidades de la aldea."
 
   miner:
     single:
-      text: "Miner"
+      text: "Minero"
     plural:
-      text: "Miners"
+      text: "Mineros"
     description:
-      text: "Harvests rock on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+      text: "Pica piedras del mapa y las almacenan en la aldea. Continuarán recolectando sin parar independientemente de las necesidades de la aldea."
 
   organizer:
     single:
-      text: "Organizer"
+      text: "Organizador"
     plural:
-      text: "Organizers"
+      text: "Organizadores"
     description:
-      text: "Organizes resources throughout the entire village, distributing resources whereever they're needed, or cleaning up resources scattered around the village."
+      text: "Organiza los recursos de toda la aldea, distribuyendo recursos donde quiera que se necesiten, u ordenando los recursos dispersos por toda la aldea."
 
   stoneCutter:
     single:
-      text: "Stone Cutter"
+      text: "Cortador de Piedra"
     plural:
-      text: "Stone Cutters"
+      text: "Cortadores de Piedra"
     description:
-      text: "Turns rock into cut stone for more advanced structures."
+      text: "Corta las piedras para convertirlas en piedras cinceladas para ser usadas en estructuras avanzadas."
 
   tumbler:
     single:
@@ -9465,9 +9465,9 @@ resource:
 
   crylithium:
     single:
-      text: "Crilitio"
+      text: "Crylitio"
     plural:
-      text: "Crilitios"
+      text: "Crylitios"
 
   rawFood:
     single:

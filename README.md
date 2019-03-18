@@ -126,8 +126,8 @@ TO DO...
 * worldMapSystemPanel
 * helpTip
 * **influence**
-* spell
-* tileSet
+* **spell**
+* **tileSet**
 * **missileName**
 * **mobName**
 * aiTask
@@ -142,14 +142,10 @@ TO DO...
 ## Reparto de trabajo
 ### Raskartar
 ```
-tileSet (mayormente completado)
-missileName (completado)
-mobName (completado)
 ```
 ### RoX
 ```
-spell (pendiente)
-helpTip (pendiente)
-resource (hecho)
+helpTip (pendiente, mucho curro xD)
 object (a medias)
+mobJob(a medias)
 ```

@@ -131,7 +131,7 @@ TO DO...
 * **missileName**
 * **mobName**
 * aiTask
-* mobJob
+* **mobJob**
 * object
 * **resource**
 * **gameMode**
@@ -142,10 +142,11 @@ TO DO...
 ## Reparto de trabajo
 ### Raskartar
 ```
+object (parte de abajo hacia arriba)
+perk (está empezado, pero es de baja prioridad)
 ```
 ### RoX
 ```
 helpTip (pendiente, mucho curro xD)
-object (a medias)
-mobJob(a medias)
+object (a medias, ES ENORME!!!) (parte de arriba hacia abajo)
 ```

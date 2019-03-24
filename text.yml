@@ -6206,27 +6206,27 @@ helpTip:
     villageWorkersHeader:
       text: "Workers"
     villageWorkers:
-      text: "Many buildings can have workers assigned to them, and will allow all sorts of different work tasks to be completed. The $YEL1builders$WHI0 assigned to the $YEL1Village Center$WHI0 for example can build, repair and dismantle structures. They can also harvest raw materials, but only if they're required to build something. $YEL1Harvesters$WHI0 from buildings like the $YEL1Lumber Shack$WHI0 on the other hand will continue to harvest materials regardless of the village's need, and create a stockpile. $YEL1You can overview what all your workers can do on the left hand 'workforce' panel."
+      text: "Muchos edificios pueden tener trabajadores asignados a ellos, y podrán completar todo tipo de tareas. Por ejemplo, los $YEL1constructores$WHI0 asignados al $YEL1Centro del Pueblo$WHI0 pueden construir, reparar y desmantelar estructuras. Tambíen pueden recolectar materias primas, pero sólo si las necesitan para construir algo. Por otro lado, los $YEL1Recolectores$WHI0 de edificios como la $YEL1Cabaña de Madera$WHI0 recogerán materiales sin tener en cuenta las necesidades del pueblo, y crearán una pila de reservas. $YEL1Puedes inspeccionar todo lo que hacen tus trabajadores en el panel izquierdo 'workforce'."
     workBuildingsHeader:
-      text: "Work Buildings"
+      text: "Edificios de trabajo"
     workBuildings:
-      text: "The new {buildingName}$WHI0 your villagers have built offers your village {amount} $GRE1{mobJobName}$WHI0 job slots! If you want your villagers to change to that job, you will need to raise the desired amount of workers for it. You can do this in two places, the $GRE1left hand GUI's workforce tab, or click on the {buildingName}$GRE1 and use the bottom pop out GUI$WHI0. Then, $GRE1click the + or - buttons$WHI0 to adjust the amount of desired workers you want. $RED1If you don't have any available villagers, make sure to lower the desired workers for another job!$WHI0"
+      text: "La nueva {buildingName}$WHI0 que tus aldeanos han construido, ofrece {amount} espacios del trabajo $GRE1{mobJobName}$WHI0! Si quieres que tus aldeanos se cambien a ese trabajo, necesitarás incrementar la cantidad deseada de trabajadores para ello. Puedes hacer esto de dos formas, con la pesataña izquierda de trabajos en la interfez, o pulsando en la {buildingName}$GRE1 y usando el boton emergente de abajo de la interfaz$WHI0. Después, $GRE1pulsa sobre los botones + o - $WHI0 para ajustar la cantidad deseada de trabajadores. $RED1 Si no tienes suficientes aldeanos, asegúrate de reducir los puestos deseados para que los trabajadores puedan ir a otros trabajos!$WHI0"
     buildingDamageHeader:
-      text: "Damaged Buildings"
+      text: "Edificios Dañados"
     buildingDamage:
-      text: "A {buildingName}$WHI0 is being damaged! If you have builders and the structure is in range of the village they will automatically try to repair it when they have time."
+      text: "Una {buildingName}$WHI0 se ha dañado! Si tienes constructores y la estructura está en el rando de tu pueblo, automáticamente intentarán repararla cuando tengan tiempo."
     resouceManagementHeader:
-      text: "Resource Management"
+      text: "Administración de Recursos"
     resouceManagement:
-      text: "The {buildingName}$WHI0 you just built can manufacture resources like $YEL1{resourceName} $WHI0but in order to get your villagers working on them $RED1you need to both assign {mobJobName} $RED1and assign the resources in the Resource Management tab on the left hand GUI.$WHI0 Setting a resource to $GRE1'Maintain'$WHI0 will try to keep at least that many of a resource in the village at all times, where as $GRE1'Make'$WHI0 will just immediately make that many for you. You can also set the value range over 500 for infinity, as well as control harvesting limits in the same manner."
+      text: "La {buildingName}$WHI0 que acabas de construir puede elaborar recursos como $YEL1{resourceName} $WHI0pero para que tus aldeanos trabajen en ella $RED1necesitas asignar {mobJobName} $RED1y tambiénn asignar los recursos en la pestaña izquierda de la interfaz Administracion de Recursos.$WHI0 Si estableces un recurso a $GRE1'Mantener'$WHI0, tratará de mantener por lo menos una cantidad de recursos en el pueblo en todo momento, mientras que la opcion $GRE1'Hacer'$WHI0 lo hará de inmediato. También puedes establecer un rango entre 500 e infinito, así como controlar los límites de recolección de la misma manera."
     energyHeader:
-      text: "Energy"
+      text: "Energía"
     energy:
-      text: "The {buildingName}$WHI0 that your villagers just completed uses energy. Buildings that use energy usually need to be fueled with essence. You can generate essence by feeding an $YEL1Essence Collector$WHI0 $GRE1crylithum$WHI0 that is refined in $YEL1Crystilleries$WHI0. Living things like monsters, animals and villagers will also drop some essence if they are killed, if you have an $YEL1Essence Collector$WHI0 the stray essence will be scooped up and delivered to buildings that can use it."
+      text: "La {buildingName}$WHI0 que acabas de construir utiliza energía. Los edificios que usan energía normalmente necesitan ser alimentados con esencia. Puedes generar esencia alimentadno un $YEL1Recolector de Esencia$WHI0 con $GRE1Crylitio$WHI0 que se refuna en la $YEL1CristaleríaWHI0. Las cosas vivientes, como los monstuos, animales y aldeanos soltarán algo de esencia al morir, si tienes un $YEL1Recolector de Esencia$WHI0 la esencia esparcida será recogida y entregada a los edificios que la usen."
     ammoHeader:
-      text: "Ammo"
+      text: "Munición"
     ammo:   
-      text: "The {buildingName}$WHI0 that your villagers have just completed needs ammunition to function. You'll need to build an ammo manufacturing building to accompy it, like a $YEL1Bowyer$WHI0 or $YEL1Rock Tumbler$WHI0."
+      text: "La {buildingName}$WHI0 que acabas de construir necesita munición para funcionar. Necesitarás construir un edificio de fabrique esa munición, como un $YEL1Constructor de Arcos$WHI0 o un $YEL1Tallador$WHI0."
     refineHeader:
       text: "Refined Materials"
     refineNew:   
@@ -7988,7 +7988,7 @@ object:
         name:
           text: "Puesto Auxiliar Pequeño"
         description:
-          text: "Un edificio de apyo que puede almacenar casi cualquier recurso. Ofrece huecos de construcción adicionales y organizadores, que ayudarán en la limpieza y distribución de los recursos."
+          text: "Un edificio de apoyo que puede almacenar casi cualquier recurso. Ofrece huecos de construcción adicionales y organizadores, que ayudarán en la limpieza y distribución de los recursos."
       base:
         name:
           text: "Puesto Auxiliar"
@@ -8091,73 +8091,73 @@ object:
     ballistaTower:
       makeshift:
         name:
-          text: "Makeshift Ballista Tower"
+          text: "Torre de Balista Improvisada"
         description:
-          text: "A heavyweight tower with extremely long range and damage but has a slow firing rate. Can shoot over anything. Requires a bowyer to manufacture ballista bolts for ammunition."
+          text: "Una torre pesada con mucho alcance y daño, pero de baja cadencia de fuego. Puede disparar acualquier cosa. Requiere un Constructor de Arcos para fabricar balistas y virotes como munición."
       base:
         name:
-          text: "Ballista Tower"
+          text: "Torre de Balista"
         description:
-          text: "Increases maximum range, damage and ammunition storage of the tower."
+          text: "Incrementa el alcance máximo, el daño y la munición total."
       established:
         name:
-          text: "Established Ballista Tower"
+          text: "Torre de Balista Asentada"
         description:
-          text: "Further increases maximum range, damage and ammunition storage of the tower."
+          text: "Incrementa aún más el alcance máximo, el daño y la munición total."
       fire:
         name:
-          text: "Fire Ballista Tower"
+          text: "Torre de Balista Ardiente"
         description:
-          text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
+          text: "Añade daño por fuego a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará virotes normales hasta que se quede sin munición."
       poison:
         name:
-          text: "Poison Ballista Tower"
+          text: "Torre de Balista Venenosa"
         description:
-          text: "Adds poison damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
+          text: "Añade daño por veneno a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará virotes normales hasta que se quede sin munición."
       ice:
         name:
-          text: "Ice Ballista Tower"
+          text: "Torre de Balista Congelante"
         description:
-          text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
+          text: "Añade daño por frío a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará virotes normales hasta que se quede sin munición."
     
     banishTower:
       makeshift:
         name:
-          text: "Makeshift Banish Tower"
+          text: "Torre Expulsadora Improvisada"
         description:
-          text: "A short range, slow firing tower that will find a nearby foe in the area, and banish them to a random location on the map."
+          text: "Una torre de corto alcance y baja cadencia de fuego, que buscará enemigos y los expulsará a una ubicación aleatoria del mapa."
       base:
         name:
-          text: "Banish Tower"
+          text: "Torre Expulsadora"
         description:
-          text: "Increases the maximum energy and fire rate of the tower."
+          text: "Incrementa la energía máxima y la cadencia de fuego."
       established:
         name:
-          text: "Established Banish Tower"
+          text: "Torre Expulsadora Asentada"
         description:
-          text: "Further increases the maximum energy and fire rate of the tower."
+          text: "Incrementa aún más la energía máxima y la cadencia de fuego."
       reinforced:
         name:
           text: "Reinforced Banish Tower"
         description:
-          text: "Further increases the maximum energy and fire rate of the tower."
+          text: "Incrementa al máximo la cantidad de energía máxima y la cadencia de fuego."
     
     barracks:
       makeshift:
         name:
-          text: "Makeshift Barracks"
+          text: "Cuarteles Improvisados"
         description:
-          text: "Provides and houses guards that will protect and patrol the village, also provides slightly better health regeneration than regular homes at the cost of energy and happiness generation."
+          text: "Proporciona y alberga guardias que protegerán y patrullarán el pueblo. También proporciona una regeneración de salud ligeramente mejor que las casas normales a costa de la generación de energía y felicidad."
       base:
         name:
-          text: "Barracks"
+          text: "Cuarteles"
         description:
-          text: "Increases provided guards, storage space and the health regeneration bonus of guards resting in the barracks."
+          text: "Incrementa la cantidad de guardias, espacio del almacén y la cantidad de salud regenerada."
       established:
         name:
-          text: "Established Barracks"
+          text: "Cuartel Asentado"
         description:
-          text: "Adds a small bow tower to the barracks, as well as further increases provided guards, storage space and the health regeneration bonus of guards resting in the barracks."
+          text: "Añade una pequeña torre de balista al cuartel, e incrementa la cantidad de guardias, almacén y la regeneración de salud."
     
     bottler:
       makeshift:

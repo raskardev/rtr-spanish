@@ -150,3 +150,8 @@ perk (está empezado, pero es de baja prioridad)
 helpTip (pendiente, mucho curro xD)
 object (a medias, ES ENORME!!!) (parte de arriba hacia abajo)
 ```
+### RaulRevolution
+```
+playSpellBar (Comenzado)
+playStatisticsPanel (Comenzando)
+```

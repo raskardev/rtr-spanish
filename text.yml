@@ -8106,7 +8106,7 @@ object:
           text: "Incrementa aún más el alcance máximo, el daño y la munición total."
       fire:
         name:
-          text: "Torre de Balista Ardiente"
+          text: "Torre de Balista Incendiaria"
         description:
           text: "Añade daño por fuego a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará virotes normales hasta que se quede sin munición."
       poison:
@@ -8162,51 +8162,51 @@ object:
     bottler:
       makeshift:
         name:
-          text: "Makeshift Bottler"
+          text: "Embotelladora Improvisada"
         description:
-          text: "Provides workers who can bottles up water so villagers can carry some around with them, improving overall village efficiency by cutting down on trips to water sources around the village."
+          text: "Proporciona trabajadores que rellenan botellas de agua para los aldeanos, mejorando así la eficiencia de los aldeanos al reducir los viajes a las fuentes de agua."
       base:
         name:
-          text: "Bottler"
+          text: "Embotelladora"
         description:
-          text: "Grants a global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
+          text: "Incrementa la velocidad de fabricación, el almacenamiento máximo y ofrece un puesto de embotellador adicional."
       established:
         name:
-          text: "Established Bottler"
+          text: "Embotelladora Asentada"
         description:
-          text: "Increases global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
+          text: "Incrementa la velocidad de fabricación, el almacenamiento máximo y ofrece un puesto de embotellador adicional."
     
     bowTower:
       makeshift:
         name:
-          text: "Makeshift Bow Tower"
+          text: "Torre Arquera Improvisada"
         description:
-          text: "A lightweight tower with decent range that can fire over most walls. Good for early defenses. Requires a bowyer to manufacture ballista bolts for ammunition."
+          text: "Una torre ligera con un alcance decente que puede disparar por encima de la mayoría de muros. Buena para defensas tempranas. Requiere un Constructor de Arcos para fabricar las flechas."
       base:
         name:
-          text: "Bow Tower"
+          text: "Torre Arquera"
         description:
-          text: "Increases maximum range, damage, firing rate and ammunition storage of the tower."
+          text: "Incrementa el alcance máximo, el daño, la velocidad de disparo y la munición máxima."
       established:
         name:
-          text: "Established Bow Tower"
+          text: "Torre Arquera Asentada"
         description:
-          text: "Further increases maximum range, damage, firing rate and ammunition storage of the tower."
+          text: "Incrementa aún más el alcance máximo, el daño, la velocidad de disparo y la munición máxima."
       fire:
         name:
-          text: "Fire Bow Tower"
+          text: "Torre Arquera Incendiaria"
         description:
-          text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
+          text: "Añade daño por fuego a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará flechas normales hasta que se quede sin munición."
       poison:
         name:
-          text: "Poison Bow Tower"
+          text: "Torre Arquera Venenosa"
         description:
-          text: "Adds poison damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
+          text: "Añade daño por veneno a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará flechas normales hasta que se quede sin munición."
       ice:
         name:
-          text: "Ice Bow Tower"
+          text: "Torre Arquera Congelante"
         description:
-          text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
+          text: "Añade daño por frío a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará flechas normales hasta que se quede sin munición."
     
     bowyer:
       makeshift:

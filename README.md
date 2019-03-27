@@ -90,7 +90,7 @@ TO DO...
 * **playLeftJobDescriptionPanel**
 * **playLeftMigrationDescriptionPanel**
 * **playLeftPanel**
-* playMainMenuPanel
+* **playMainMenuPanel**
 * playOverlay
 * playPauseBanner
 * playPopulationListPanel
@@ -158,10 +158,11 @@ playStatisticsPanel (Comenzando)
 
 ### Ninjam
 ```
+playOverlay
+* playPauseBanner
+* playPopulationListPanel
+* playPopulationTotalsPanel
 
 
-
-
-playMainMenuPanel
 
 ```

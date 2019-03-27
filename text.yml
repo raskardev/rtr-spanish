@@ -3629,22 +3629,22 @@ playLeftPanel:
 # rtr.gui.states.playstate.MainMenuPanel.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-playMainMenuPanel:
-  comment: "Play State - Main Menu Panel"
-  javaClass: "rtr.gui.states.playstate.MainMenuPanel.java"
+  playMainMenuPanel:
+    comment: "Play State - Main Menu Panel"
+    javaClass: "rtr.gui.states.playstate.MainMenuPanel.java"
   
   button:
     settings:
-      text: "Settings"
+      text: "Ajustes"
     saveAndExit:
-      text: "Save and Exit"
+      text: "Guardar y Salir"
     'yes':
-      text: "Yes!"
+      text: "¡Sí!"
       
   header:
-    text: "Main Menu"
+    text: "Menú principal"
   saveAndExitWarningMessage:
-    text: "$GRE1ARE YOU SURE?"
+    text: "$GRE1¿ESTÁS SEGURO?"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State

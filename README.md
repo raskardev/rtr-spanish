@@ -72,12 +72,12 @@ TO DO...
 * mapEditorLoadMapPanel
 * mapEditorNewMapDeleteWarningPanel
 * mapEditorNewMapPanel
-* mainMenuNewProfilePanel
-* mainMenuRestartGamePanel
-* mainMenuSelectProfilePanel
-* mainMenuSkirmishNewGameWarningPanel
-* mainMenuSkirmishPanel
-* mainMenuUploadProfilePanel
+* **mainMenuNewProfilePanel**
+* **mainMenuRestartGamePanel**
+* **mainMenuSelectProfilePanel**
+* **mainMenuSkirmishNewGameWarningPanel**
+* **mainMenuSkirmishPanel**
+* **mainMenuUploadProfilePanel**
 * mapEditorMainMenuPanel
 * mapEditorRegionalDataPanel
 * mapEditorPlayRightPanel
@@ -158,10 +158,7 @@ playStatisticsPanel (Comenzando)
 
 ### Ninjam
 ```
-mainMenuNewProfilePanel
-mainMenuRestartGamePanel
-mainMenuSelectProfilePanel
-mainMenuSkirmishNewGameWarningPanel
-mainMenuSkirmishPanel
+
+
 mainMenuUploadProfilePanel
 ```

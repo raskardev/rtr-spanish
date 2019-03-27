@@ -84,12 +84,12 @@ TO DO...
 * mapEditorSystemAndDataBar
 * mapEditorPlayHarvestAndTerrainBar
 * mapEditorWorldMapListPanel
-* playBuildingListPanel
-* playCastlePanel
-* playConsolePanel
-* playLeftJobDescriptionPanel
-* playLeftMigrationDescriptionPanel
-* playLeftPanel
+* **playBuildingListPanel** <------------------------>
+* **playCastlePanel**
+* **playConsolePanel**
+* **playLeftJobDescriptionPanel**
+* **playLeftMigrationDescriptionPanel**
+* **playLeftPanel**
 * playMainMenuPanel
 * playOverlay
 * playPauseBanner
@@ -160,5 +160,8 @@ playStatisticsPanel (Comenzando)
 ```
 
 
-mainMenuUploadProfilePanel
+
+
+playMainMenuPanel
+
 ```

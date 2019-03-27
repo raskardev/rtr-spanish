@@ -3147,7 +3147,7 @@ playBuildingListPanel:
       topPriority:
         text: "Establece la construcción del edificio como prioritaria en lo más alto de la lista. Cuanto más arriba en la lista, más importante será para tus trabajadores, recibiendo recursos antes y construyéndose primero."
       lastPriorityHeader:
-        text: "Last Priority"
+        text: "Última Prioridad"
       lastPriority:
         text: "Establece la construcción del edificio en lo más bajo de la lista. Cuanto más arriba en la lista, más importante será para tus trabajadores, recibiendo recursos antes y construyéndose primero."
       prioritySortOrderHeader:
@@ -3598,30 +3598,30 @@ playLeftPanel:
       parkedCourierGolems:
         text: "How many courier golems are parked and ready to deliver resources."
       sendInfinityHeader:
-        text: "Send Infinity"
+        text: "Enviar Infinito"
          
     header:
       selectedRegion:
-        text: "Selected Region"
+        text: "Región Seleccionada"
       send:
-        text: "Send"
+        text: "Enviar"
       daily:
-        text: "Daily"
+        text: "Diario"
          
     sort:
       total:
         text: "Total"
       equip:
-        text: "Equip"
+        text: "Equipar"
       carry:
-        text: "Carry"
+        text: "Transportado"
       ground:
-        text: "Ground"
+        text: "En el suelo"
       stored:
-        text: "Stored"
+        text: "Almacenado"
         
     regionLost:
-      text: "$RED0Region lost to corruption!~Can not send resources."
+      text: "$RED0Región perdida por la corrupción~No se pueden enviar recursos"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State

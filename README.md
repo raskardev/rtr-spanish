@@ -155,3 +155,13 @@ object (a medias, ES ENORME!!!) (parte de arriba hacia abajo)
 playSpellBar (Comenzado)
 playStatisticsPanel (Comenzando)
 ```
+
+### Ninjam
+```
+mainMenuNewProfilePanel
+mainMenuRestartGamePanel
+mainMenuSelectProfilePanel
+mainMenuSkirmishNewGameWarningPanel
+mainMenuSkirmishPanel
+mainMenuUploadProfilePanel
+```

@@ -4538,9 +4538,9 @@ playSpellBar:
   
   changeSpell:
     header:
-      text: "Change Spell"
+      text: "Cambiar Hechizo"
     tooltip:
-      text: "Open the full spell list and change the spell in slot {slotNumber}."
+      text: "Abrir la lista completa de hechizos y cambiar el hechizo del hueco {slotNumber}."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State

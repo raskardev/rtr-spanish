@@ -4941,29 +4941,29 @@ playToolsBar:
   button:
     tooltip:
       pauseBuildingsHeader:
-        text: "Pause Buildings ({shortcutKey})"
+        text: "Pausar edificios ({shortcutKey})"
       pauseBuildings:
-        text: "Pausing a building will stop most village interactions with it."
+        text: "Pausar un edificio detendrá la mayoría de interacciones por aldeanos hacia este."
       dismantleBuildingsHeader:
-        text: "Dismantle Buildings ({shortcutKey})"
+        text: "Desmantelar edificios ({shortcutKey})"
       dismantleBuildings:
-        text: "Dismantle a building and recover some of its original construction costs. $RED1This CAN NOT be undone!"
+        text: "Desmantelar (destruir) un edificio y recuperar algo de su coste original de construcción $RED1¡Esto NO se puede deshacer!"
       digHeader:
-        text: "Dig a Hole ({shortcutKey})"
+        text: "Cavar un agujero ({shortcutKey})"
       dig:
-        text: "Dig holes in the ground that will fill with water the next time it rains."
+        text: "Cavar un agujero en la tierra para que la próxima vez que llueva esté lleno de agua."
       createOrUpgradeRoadsHeader:
-        text: "Create or Upgrade Roads"
+        text: "Crear o mejorar caminos"
       createOrUpgradeRoads:
         text: "Select open tiles to build paths on, or upgrade existing roads and paths. Roads and paths increase movement speed of all creatures that walk on them."
       dismantleRoadsHeader:
-        text: "Dismantle Roads"
+        text: "Desmantelar caminos"
       dismantleRoads:
         text: "Completely remove a road or path."
       destroyTerrainHeader:
-        text: "Destroy Terrain"
+        text: "Destruir terrenos"
       destroyTerrain:
-        text: "Quickly destroy nearly any topography, including forest, tree stumps, rocks, rubble, water and even flowers. No resources will be gained from destroying the topography."
+        text: "Destruye rápidamente cualquier topografía, incluyendo bosques, tocones de árboles, piedras, escombros, agua e incluso floresQuickly destroy nearly any topography, including forest, tree stumps, rocks, rubble, water and even flowers. No obtendrás ningún recurso."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -7187,7 +7187,7 @@ aiTask:
     pathfindToTopography:
       text: "Walking to worksite clear some topography."
     clearTopography:
-      text: "Clearing topography."
+      text: "Limpiando topografía."
       
   combatBuildings:
     pathfindToTarget:
@@ -7407,9 +7407,9 @@ aiTask:
       
   harvestWork:
     pathfindToResource:
-      text: "Walking to worksite harvest some materials"
+      text: "Caminando hacia sitio de trabajo para cosechar algunos materiales"
     harvestResource:
-      text: "Harvesting materials"
+      text: "Cosechando materiales"
       
   healthRepair:
     pathfindToBuilding:
@@ -7451,19 +7451,19 @@ aiTask:
 
   mateGoCoitus:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "Encontrando un camino a casa {buildingName}"
     pathfindToHome:
-      text: "Going home to have coitus with {mobName}"
+      text: "Caminando hacia casa para tener "coito" con {mobName}"
     enterHome:
-      text: "Entering home to have coitus with {mobName}"
+      text: "Entrando en casa para tener "coito" con {mobName}"
       
   mateGoCoitusOther:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "Encontrando un camino a casa {buildingName}"
     pathfindToHome:
-      text: "Going home to have coitus with {mobName}"
+      text: "Caminando hacia casa para tener "coito" con {mobName}"
     enterHome:
-      text: "Entering home to have coitus with {mobName}"
+      text: "Entrando en casa para tener "coito" con {mobName}"
       
   medicWork:
     pathfindToBuilding:
@@ -7483,39 +7483,39 @@ aiTask:
       
   migrationPreperationBehavior:
     pathfindToLeaveCoordinates:
-      text: "Preparing to leave region"
+      text: "Preparándose para abandonar la región"
       
   nomadBehavior:
     pathfindToVillage:
-      text: "Wandering into the village"
+      text: "Deambulando en la aldea"
       
   nomadBehaviorOther:
     pathfindToVillage:
-      text: "Wandering into the village"
+      text: "Deambulando en la aldea"
       
   onFirePanic:
     onFire:
-      text: "On fire!!"
+      text: "¡¡ENVUELTO EN FUEGO!!"
       
   panic:
     panicking:
-      text: "Panicking!!"
+      text: "¡¡PRESO DEL PÁNICO!!"
       
   plantResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to plant"
+      text: "Recogiendo recurso del suelo para plantar"
     pathfindToBuilding:
-      text: "Picking up resource at {buildingName} to plant it"
+      text: "Transportando recurso a {buildingName} para plantarlo"
       
   plantResourceInHand:
     pathfindToBuilding:
-      text: "Planting resource in a farm"
+      text: "Plantando recurso en una granja"
     pathfindToExtraResource:
-      text: "Picking up additional planting resource"
+      text: "Recogiendo recursos de plantación adicionales"
       
   provisionerLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region"
+      text: "Saliendo de la región"
       
   provisionerPost:
     pathfindToMarketplace:
@@ -7525,7 +7525,7 @@ aiTask:
       
   quitJob:
     pathfindToWorkBuilding:
-      text: "Going to {buildingName} to quit a job."
+      text: "Caminando hacia {buildingName} para dejar el trabajo."
       
   redistributeResources:
     pathfindToBuilding:
@@ -7537,39 +7537,39 @@ aiTask:
       
   refineResource:
     pathfindToWork:
-      text: "Refining resource at {buildingName}"
+      text: "Refinando recursos en {buildingName}"
     refineResource:
-      text: "Refining materials"
+      text: "Refinando materiales"
       
   refineWaterBottle:
     pathfindToWork:
-      text: "Bottling water at {buildingName}"
+      text: "Embotellando agua en {buildingName}"
     refineResource:
-      text: "Bottling water"
+      text: "Embotellando agua"
       
   removeRoadWork:
     pathfindToRoad:
-      text: "Walking to worksite remove a road."
+      text: "Caminando hacia el sitio de trabajo para quitar un camino"
     removeRoad:
-      text: "Removing road."
+      text: "Quitando camino"
       
   repairRoadWork:
     pathfindToRoad:
-      text: "Walking to a road to repair it"
+      text: "Camiando hacia el camino para repararlo"
     repairRoad:
-      text: "Repairing road"
+      text: "Reparando camino"
       
   repairWork:
     pathfindToRoad:
-      text: "Walking to {buildingName} to repair"
+      text: "Caminando hacia {buildingName} para repararlo"
     repairRoad:
-      text: "Repairing {buildingName}"
+      text: "Reparando {buildingName}"
       
   roadWork:
     pathfindToRoad:
-      text: "Walking to worksite build a road"
+      text: "Caminando hacia el sitio de trabajo para construir un camino"
     buildRoad:
-      text: "Edificio road"
+      text: "Construyendo camino"
       
   sellResource:
     pathfindToResourceOnGround:
@@ -7585,31 +7585,31 @@ aiTask:
       
   sleepOutside:
     findSafeLocation:
-      text: "Finding a safe place to sleep outside"
+      text: "Encontrando un sitio seguro donde dormir"
     pathfindToSafeLocation:
-      text: "Walking to a safe place to sleep"
+      text: "Caminando hacia un sitio seguro donde dormir"
     sleepOutside:
-      text: "Sleeping outside"
+      text: "Durmiendo fuera"
       
   spawnRepair:
     pathfindToSpawner:
-      text: "Walking to {buildingName} to repair"
+      text: "Caminando hacia {buildingName} para repararlo"
     repair:
-      text: "Repairing {buildingName}"
+      text: "Reparando {buildingName}"
       
   start:
     idle:
-      text: "Idle"
+      text: "Esperando órdenes"
       
   storeResource:
     pathfindToResource:
-      text: "Picking up resource on ground to store in a building"
+      text: "Recogiendo recursos del suelo para almacenar en un edificio"
       
   storeResourceInHand:
     pathfindToBuilding:
-      text: "Storing resource in {buildingName}"
+      text: "Almacenando recurso en {buildingName}"
     pathfindToExtraResource:
-      text: "Picking up additional storage resource for {buildingName}"
+      text: "Recogiendo recurso adicional de almacenamiento para {buildingName}"
       
   stuck:
     pathfindOffBlockedTerrain:
@@ -7627,33 +7627,33 @@ aiTask:
       
   visitMate:
     pathfindToMate:
-      text: "Visiting {mobName}"
+      text: "Visitando a {mobName}"
       
   wander:
     pathfindToWanderCoordinatesMob:
-      text: "Wandering to {mobName}"
+      text: "Deambulando hacia {mobName}"
     pathfindToWanderCoordinates:
-      text: "Wandering around"
+      text: "Deambulando por ahí"
       
   wildDoggoWanderIn:
     pathfindToVillage:
-      text: "Wandering into the village"
+      text: "Deambulando por la aldea"
   
   corruptionBuildingPlacement:
     create:
-      text: "Creating a new building"
+      text: "Creando un nuevo edificio"
       
   corruptionBuildWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to build"
+      text: "Caminando hacia {buildingName} para construirlo"
     build:
-      text: "Edificio {buildingName}"
+      text: "Construyendo {buildingName}"
       
   corruptionClearTopographyWork:
     pathfindToTopography:
       text: "Walking to worksite clear some topography."
     clearTopography:
-      text: "Clearing topography."
+      text: "Limpiando topografía"
       
   corruptionDeliverResourceInHand:
     pathfindToBuilding:
@@ -7675,19 +7675,19 @@ aiTask:
       
   corruptionHarvestWork:
     pathfindToHarvestWork:
-      text: "Walking to worksite harvest some materials"
+      text: "Caminando hacia el sitio de trabajo para cosechar algunos materiales"
     harvestResource:
-      text: "Harvesting materials"
+      text: "Cosechando materiales"
       
   corruptionRoadWork:
     pathfindToRoad:
-      text: "Walking to worksite build a road"
+      text: "Caminando hacia el sitio de trabajo para construir un camino"
     buildRoad:
-      text: "Edificio road"
+      text: "Construyendo camino"
       
   hostileBehaviorAttack:
     pathfindToTarget:
-      text: "Attacking the village!"
+      text: "¡Atacando la aldea!"
       
   hostileBehaviorLeave:
     pathfindToLeaveCoordinates:

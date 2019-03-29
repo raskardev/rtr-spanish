@@ -91,12 +91,12 @@ TO DO...
 * **playLeftMigrationDescriptionPanel**
 * **playLeftPanel**
 * **playMainMenuPanel**
-* playOverlay
-* playPauseBanner
-* playPopulationListPanel
-* playPopulationTotalsPanel
+* **playOverlay**
+* **playPauseBanner**
+* **playPopulationListPanel**
+* **playPopulationTotalsPanel**
 * **playProblemPanel**
-* playResourceAndInfluenceBar
+* **playResourceAndInfluenceBar**
 * playSelectedMobPanel
 * playSelectedObjectPanel
 * playSelectedObjectUpgradePanel
@@ -158,10 +158,10 @@ playStatisticsPanel (Comenzando)
 
 ### Ninjam
 ```
-playOverlay
-* playPauseBanner
-* playPopulationListPanel
-* playPopulationTotalsPanel
+aitask:
+dudas en líneas 4033, 7164, 7168, 7178, 7222, 7230, 7272, 7327-7332, 7384-7389, 7400, 7444
+
+
 
 
 

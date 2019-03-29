@@ -3658,37 +3658,37 @@ playOverlay:
   
   slots:
     outOfAncillarySlotsNoCamp:
-      text: "Out of ancillary slots~Build a $GRE0Camp!"
+      text: "¡Falta de huecos en el puesto auxiliar!~¡Construye un $GRE0Campamento!"
     outOfAncillarySlotsUpgrade:
-      text: "Out of ancillary slots~Upgrade your $GRE0{castleName}"
+      text: "¡Falta de huecos en el puesto auxiliar!~Mejora tu $GRE0{castleName}"
     outOfAncillarySlots:
-      text: "Out of ancillary slots!"
+      text: "¡Falta de huecos en el puesto auxiliar!"
     outOfBuildingSlotsNoCamp:
-      text: "Out of building slots~Build a $GRE0Camp!"
+      text: "¡Falta de huecos para construir!~¡Construye un $GRE0Campamento!"
     outOfBuildingSlotsUpgrade:
-      text: "Out of building slots~Upgrade your $GRE0{castleName}~$WHI0or build an $GRE0Ancillary"
+      text: "¡Falta de huecos para construir!~Mejora tu $GRE0{castleName}~$WHI0o construye un $GRE0puesto auxiliar"
     outOfBuildingSlots:
-      text: "Out of building slots!"
+      text: "¡Falta de huecos para construir!"
   
   roads:
     canNotImprove:
-      text: "Can not improve"
+      text: "No se puede mejorar."
     roadCostFree:
-      text: "{nextRoadName}~$GRE1Cost: FREE"
+      text: "{nextRoadName}~$GRE1Coste: GRATIS"
     roadCost:
-      text: "{nextRoadName}~$YEL1Cost: 1 {resourceName}"
+      text: "{nextRoadName}~$YEL1Coste: 1 {resourceName}"
   
   general:
     cancelAction:
-      text: "Press $GRE1{shortcutKey} $WHI0or the $GRE1MIDDLE MOUSE BUTTON$WHI0 to cancel current action and return to select mode."
+      text: "Presiona $GRE1{shortcutKey} $WHI0o el $GRE1BOTÓN CENTRAL DEL RATÓN$WHI0 para cancelar la acción y volver al modo de selección."
     unassignWork:
-      text: "Hold $GRE1{shortcutKey} $YEL1to unassign."
+      text: "Mantén $GRE1{shortcutKey} $YEL1para deshacer la asignación."
     deleteObjects:
-      text: "Hold $GRE1{shortcutKey} $YEL1to delete object."
+      text: "Mantén $GRE1{shortcutKey} $YEL1para eliminar el objeto."
     castFree:
-      text: "Hold $GRE1{shortcutKey} $YEL1to cast for free."
+      text: "Mantén $GRE1{shortcutKey} $YEL1para conjurar gratuitamente"
     nothingToGrab:
-      text: "Nothing to grab."
+      text: "Nada que recoger."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3701,9 +3701,9 @@ playPauseBanner:
   javaClass: "rtr.gui.states.playstate.PauseBanner.java"
   
   header:
-    text: "$YEL0PAUSED"
+    text: "$YEL0EN PAUSA"
   body:
-    text: "PRESS $GRE1{shortcutKey}$WHI0 TO RESUME."
+    text: "PRESIONA $GRE1{shortcutKey}$WHI0 PARA CONTINUAR"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3722,124 +3722,124 @@ playPopulationListPanel:
       nextSortFilterHeader:
         text: "Next Sort Filter"
       firstPageHeader:
-        text: "First Page"
+        text: "Primera página"
       lastPageHeader:
-        text: "Last Page"
+        text: "Última página"
       pageDownHeader:
-        text: "Page Down"
+        text: "Página abajo"
       pageUpHeader:
-        text: "Page Up"
+        text: "Página arriba"
 
   tooltip:
     totalAdultsHeader:
-      text: "Total Adults"
+      text: "Adultos totales"
     totalAdults:
-      text: "Total able bodied adult villagers who can take jobs and work."
+      text: "Aldeanos Adultos que pueden recibir trabajos y trabajar."
     totalEldersHeader:
-      text: "Total Elders"
+      text: "Ancianos totales"
     totalElders:
-      text: "Total elders, who have retired and can no longer work."
+      text: "Ancianos que se han retirado y no pueden trabajan más."
     totalChildrenHeader:
-      text: "Total Children"
+      text: "Niños totales"
     totalChildren:
-      text: "Total children who are not quite old enough to work yet."
+      text: "Niños que no son lo suficientemente mayores como para trabajar."
     totalGolemsHeader:
-      text: "Total Golems"
+      text: "Golems totales"
     totalGolems:
-      text: "Total golems currently in the village."
+      text: "Golems actualmente en la aldea."
     averageHappinessHeader:
-      text: "Average Happiness"
+      text: "Felicidad media"
     averageHappiness:
-      text: "The average happiness levels of the entire village."
+      text: "La media de nivel de felicidad para toda la aldea."
     averageAgeHeader:
-      text: "Average Age"
+      text: "Edad media"
     averageAge:
-      text: "The average age of the entire village."
+      text: "La media de edad de toda la aldea."
     averageHungerHeader:
-      text: "Average Hunger"
+      text: "Hambre media"
     averageHunger:
-      text: "The average hunger levels of the entire village."
+      text: "La media de los niveles de hambre de toda la aldea."
     averageThirstHeader:
-      text: "Average Thirst"
+      text: "Sed media"
     averageThirst:
-      text: "The average thirst levels of the entire village."
+      text: "La media de los niveles de sed de toda la aldea."
     averageEnergyHeader:
-      text: "Average Energy"
+      text: "Promedio de energía"
     averageEnergy:
-      text: "The average energy levels of the entire village."
+      text: "El promedio de los niveles de energía de toda la aldea."
     totalHomlessHeader:
-      text: "Total Homeless"
+      text: "Vagabundos totales"
     totalHomless:
-      text: "The amount of villagers in the village who have nowhere to live. Build or upgrade your houses to give your villages some more space to live in."
+      text: "La cantidad de aldeanos en la aldea que no tienen donde vivir. Construye o mejora tus casas para dar a tus aldeanos un lugar donde vivir."
     totalPregnantHeader:
-      text: "Total Pregnant"
+      text: "Embarazos totales"
     totalPregnant:
-      text: "The amount of villagers in the village who are pregnant."
+      text: "La cantidad de aldeanos que están embarazados."
     totalMatesHeader:
-      text: "Has Mate"
+      text: "Tiene compañero"
     totalMates:
-      text: "The amount of villagers in the village who have a partner."
+      text: "La cantidad de aldeanos en la aldea que tienen un compañero."
     totalAnimalsHeader:
-      text: "Has Animal"
+      text: "Tiene mascota"
     totalAnimals:
-      text: "The amount of villagers in the village who have a pet."
+      text: "La cantidad de aldeanos en la aldea que tienen una mascota."
     unemployedVillagersHeader:
-      text: "Unemployed Villagers"
+      text: "Aldeanos desempleados"
     unemployedVillagers:
-      text: "How many adult villagers are available to work, but have not been assigned a job."
+      text: "Aldeanos adultos que están disponibles para trabajar, pero no han sido asignados a un trabajo."
     averageLifeExpectancyHeader:
-      text: "Average Life Expectancy"
+      text: "Esperanza de vida"
     averageLifeExpectancy:
-      text: "The average life expectancy of the entire village. Increase this by taking better care of your villagers, keeping them happy and healthy!"
+      text: "La esperanza de vida de toda la aldea. Si quieres aumentar esta media, trata mejor a tus aldeanos, ¡Manteniéndolos contentos y sanos!"
     homelessHeader:
-      text: "Homeless"
+      text: "Vagabundo"
     homeless:
-      text: "This villager has no home. You may have a housing shortage, but if they are a new arrival or you just built new housing, it may take a minute for them to find it."
+      text: "Este aldeano no tiene una casa. Es posible que no tengas casas donde meterle, pero si acaban de llegar o has construido una hace poco, le llevará un minuto encontrarla."
     pregnantHeader:
-      text: "Pregnant"
+      text: "Embarazada"
     pregnant:
-      text: "This (hopefully female) villager is with child and will likely give birth in a few days from conception."
+      text: "Este aldeano (que debería ser femenino) está cerca de tener un hijo y probablemente dé a luz dentro de unos días."
     hasMateHeader:
-      text: "Has Mate"
+      text: "Compañero"
     hasMate:
-      text: "This villager has a partner somewhere in the village."
+      text: "Este aldeano tiene a un compañero en alguna parte de la aldea."
     ownerHeader:
-      text: "Owner"
+      text: "Dueño"
     owner:
-      text: "This villager own an animal, or this animal has an owner."
+      text: "Este aldeano es dueño de un animal, o este animal tiene un dueño."
     unemployedHeader:
-      text: "Unemployed"
+      text: "Desempleado"
     unemployed:
-      text: "This villager currently does not have a job. But if you've recently requested more workers, they may already be en route to take one."
+      text: "Actualmente, este aldeano no tiene un trabajo, pero si has pedido más trabajadores recientemente, probablemente esté de camino a recibirlo."
     levelHeader:
-      text: "Level"
+      text: "Nivel"
     level:
-      text: "Villagers level up by doing all kinds of tasks, like working, fighting and even mating!"
+      text: "El nivel de los aldeanos sube con cualquier tipo de actividad, como trabajando, peleando, o ¡Incluso procreando!"
     ageHeader:
-      text: "Age"
+      text: "Edad"
     age:
-      text: "Their age will tick up once for every full day that has passed."
+      text: "Su edad subirá lentamente por cada día que haya pasado."
   
   sort:
     all:
-      text: "$GRE1All"
+      text: "$GRE1Todos"
     villagers:
-      text: "$GRE1Villagers"
+      text: "$GRE1Aldeanos"
     adults:
-      text: "$GRE1Adults"
+      text: "$GRE1Adultos"
     elders:
-      text: "$GRE1Elders"
+      text: "$GRE1Ancianos"
     children:
-      text: "$GRE1Children"
+      text: "$GRE1Niños"
     golems:
       text: "$GRE1Golems"
     animals:
-      text: "$GRE1Animals"
+      text: "$GRE1Animales"
   
   header:
-    text: "Population List"
+    text: "Lista de población"
   pageList:
-    text: "Population List     Pg: {currentPage} of {totalPages}"
+    text: "Lista de población    Pág: {currentPage} de {totalPages}"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3853,30 +3853,30 @@ playPopulationTotalsPanel:
   
   tooltip:
     totalPopulationHeader:
-      text: "Total Population"
+      text: "Población total"
     totalHomeOccupancyHeader:
-      text: "Total Home Occupancy"
+      text: "Ocupación total de hogares"
     totalHomeOccupancy:
-      text: "The total amount of living space currently being used used, as well as the total available you have in your homes."
+      text: "La cantidad de espacio habitable que está siendo utilizado actualmente, así como el espacio total disponible en tus casas."
     totalBarracksOccupancyHeader:
-      text: "Total Barracks Occupancy"
+      text: "Ocupación total de barracones"
     totalBarracksOccupancy:
-      text: "The total amount of living space currently being used used, as well as the total available you have in your barracks."
+      text: "La cantidad de espacio habitable que está siendo utilizado actualmente, así como el espacio total disponible en tus barracones."
     totalAncillariesHeader:
-      text: "Total Ancillaries"
+      text: "Puestos auxiliares totales"
     totalAncillaries:
-      text: "The total amount of ancillaries, and how many ancillary slots remains. Increase your ancillary slots by upgrading your camp/castle!"
+      text: "La cantidad total de puestos auxiliares, y cuántos huecos de puesto auxiliar quedan por usar. ¡Aumenta tus huecos mejorando tu campamento o castillo!"
     totalBuildingsHeader:
-      text: "Total Buildings"
+      text: "Edificios totales"
     totalBuildings:
-      text: "The total amount of buildings, and how many building slots remains. Does not count walls or ancillaries. Increase your build slots by building additional ancillaries!"
+      text: "La cantidad total de edificios, y cuantos huecos de edificios quedan por usar. Las murallas y puestos auxiliares no cuentan. ¡Incrementa tus huecos de construcción construyendo puestos auxiliares adicionales!"
     totalChildrenHeader:
-      text: "Total Children"
+      text: "Niños totales¡"
     totalChildren:
-      text: "Total children who are not quite old enough to work yet."
+      text: "La cantidad total de niños que no son lo suficientemente mayores para poder trabajar."
   
   header:
-    text: "Population"
+    text: "Población"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4014,39 +4014,39 @@ playResourceAndInfluenceBar:
   button:
     tooltip:
       sortingHeader:
-        text: "Sorting"
+        text: "Clasificación"
       sorting:
-        text: "Change the totals display filter."
+        text: "Cambia los filtros totales de clasificación"
         
   tooltip:
     totalGoldCoinsHeader:
-      text: "Total Gold Coins"
+      text: "Monedas de oro totales"
     totalGoldCoins:
-      text: "Total amount of gold coins in the entire village."
+      text: "La cantidad total de monedas de oro en toda la aldea."
     totalWaterHeader:
-      text: "Total Water"
+      text: "Agua total"
     totalWater:
-      text: "Total drinkable water in all buildings combined that can store it, like rain catchers, houses, and wells. Does not include dirty water."
+      text: "La cantidad total de agua potable en todos los edificios que pueden almacenarla, como receptores de lluvia, casas, y pozos. No incluye el agua sucia."
     totalEnergyHeader:
-      text: "Total Energy"
+      text: "Energía total"
     totalEnergy:
-      text: "Total energy in all buildings combined that can store it, like essence collectors, golem combobulators, and magic towers."
+      text: "La cantidad total de energía en todos los edificios que pueden almacenarla, como colectores de esencia, Combobuladores de golems, y torres mágicas."
     totalInfluenceHeader:
-      text: "Influence"
+      text: "Influencia"
     totalInfluence:
-      text: "The total influence you currently have to cast spells with. Influence is refilled slowly over time, or by hovering your hand over loose essence in the world. You can increase you maximum influence by raising your village population."
+      text: "La cantidad total de influencia que tienes para conjurar hechizos. La influencia se va rellenando con el tiempo, o también puedes pasar tu mano por encima de aquellos que han perdido la esencia en este mundo. Puedes incrementar tu influencia máxima incrementando tu capacidad para albergar a más población."
   
   sort:
     total:
      text: "Total"
     equip:
-      text: "Equip"
+      text: "Equipado"
     carry:
-      text: "Carry"
+      text: "Transportado"
     ground:
-      text: "Ground"
+      text: "En el suelo"
     stored:
-      text: "Stored"
+      text: "Almacenado"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -7131,37 +7131,37 @@ aiTask:
   
   base:
     drinkingWater:
-      text: "Drinking a $YEL1{resourceName}"
+      text: "Bebiendo un $YEL1{resourceName}"
     eatingFood:
-      text: "Eating a $YEL1{resourceName}"
+      text: "Comiendo un $YEL1{resourceName}"
     pathfindingBruteForce:
-      text: "Clearing obstacles in the way"
+      text: "Limpiando obstaculos en el camino."
     recoveringHealth:
-      text: "Recovering health with a $YEL1{resourceName}"
+      text: "Recuperando vida con un $YEL1{resourceName}"
 
     droppingResource:
       findingLocation:
-        text: "Finding location to drop a resource"
+        text: "Encontrando un lugar donde dejar el recurso."
       pathfinding:
-        text: "Walking to an open space to drop the resource in their hand"
+        text: "Caminando a un lugar abierto para dejar el recurso de su mano."
       dropping:
-        text: "Dropping resource on ground"
+        text: "Dejando el recurso en el suelo."
         
   birth:  
     findSafeLocation:
-      text: "Finding a safe place to give birth"
+      text: "Encontrando un lugar seguro para dar a luz."
     pathfindToSafeLocation:
-      text: "Walking to a safe place to give birth"
+      text: "Caminando a un lugar seguro para dar a luz."
   
   buildWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to build"
+      text: "Caminando a {buildingName} para construirlo."
     build:
       text: "Edificio {buildingName}"
 
   buyFromProvisioner:
     pathfindToProvisioner:
-      text: "Buying resource from $YEL1a catjeet provisioner"
+      text: "Comprando recurso a $YEL1a catjeet provisioner <-" 
 
   buyLaborer:
     pathfindToLaborer:
@@ -7169,19 +7169,19 @@ aiTask:
 
   chat:
     pathfindToChatPartner:
-      text: "Visiting {mobName}"
+      text: "Visitando a {mobName}"
     chat:
-      text: "Chatting with {mobName}"
+      text: "Charlando con {mobName}"
 
   clearoutResourceFromBuilding:
     pathfindToBuilding:
-      text: "Clearing out $YEL1{resourceName}$WHI0 topography at {buildingName}"
+      text: "Limpiando la topografía de $YEL1{resourceName}$WHI0 en {buildingName}"
 
   clearTopographyFromRoadWork:
     pathfindToTopography:
-      text: "Walking to worksite clear some topography from a road."
+      text: "Caminando al sitio de trabajo para limpiar parte de la topografía de un camino."
     clearTopography:
-      text: "Clearing topography."
+      text: "Limpiando topografía."
 
   clearTopographyWork:
     pathfindToTopography:
@@ -7191,19 +7191,19 @@ aiTask:
       
   combatBuildings:
     pathfindToTarget:
-      text: "Attacking {buildingName}"
+      text: "Atacando {buildingName}"
       
   combatMobs:
     fleeTarget:
-      text: "Fleeing {mobName}"
+      text: "Huyendo de {mobName}"
     pathfindToTarget:
-      text: "Attacking {mobName}"
+      text: "Atancando a {mobName}"
 
   confused:
     beConfused:
-      text: "Confused"
+      text: "Confundido"
     wanderAround:
-      text: "Wandering around confused"
+      text: "Deambulando con confusión"
 
   constructionHarvestWork:
     pathfindToHarvestWork:
@@ -7213,45 +7213,45 @@ aiTask:
 
   courierArriveBehavior:
     pathfindToDropOffCoordinatesNoRegion:
-      text: "Delivering resources from otra región"
+      text: "Entregando recursos de otra región."
     pathfindToDropOffCoordinates:
-      text: "Delivering resources from $YEL1{regionName}"
+      text: "Entregando recursos de $YEL1{regionName}"
     dropOffResourcesNoRegion:
-      text:  "Dropping off resources from otra región"
+      text:  "Dejando recursos de otra región en el suelo."
     dropOffResources:
-      text:  "Dropping off resources from $YEL1{regionName}"
+      text:  "Dejando recursos de $YEL1{regionName}"
       
   courierDepartBehavior:
     pathfindToLeaveCoordinates:
-      text: "Departing the region to deliver resources to $YEL1{regionName}"
+      text: "Partiendo fuera de la región para repartir recursos a $YEL1{regionName}"
 
   courierParkBehavior:
     pathfindToParkingSpot:
-      text: "Parking at $YEL1{buildingName}"
+      text: "Aparcando en $YEL1{buildingName}"
     park:
-      text: "Waiting for resources at $YEL1{buildingName}"
+      text: "Esperando recursos en $YEL1{buildingName}"
 
   criticalRepairWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to repair"
+      text: "Caminando a {buildingName} para reparar"
     repairBuilding:
-      text: "Repairing {buildingName}"
+      text: "Reparando {buildingName}"
 
   death:
     death:
-      text: "Dead"
+      text: "Muerto"
       
   deliverConstructionResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to deliver to {buildingName}"
+      text: "Recogiendo recursos del suelo para entregar a {buildingName}"
     pathfindToBuilding:
-      text: "Delivering resource at {buildingNameSource} to {buildingNameDestination}"
+      text: "Entregando recursos de {buildingNameSource} a {buildingNameDestination}"
 
   deliverConstructionResourceInHand:
     pathfindToBuilding:
-      text: "Delivering resource to {buildingName}"
+      text: "Entregando recursos a {buildingName}"
     pathfindToExtraResource:
-      text: "Picking up additional delivery resource for {buildingName}"
+      text: "Recogiendo recursos adicionales para {buildingName}"
 
   deliverCourierResource:
     pathfindToResourceOnGround:
@@ -7261,13 +7261,13 @@ aiTask:
 
   deliverCourierResourceInHand:
     pathfindToCourier:
-      text: "Delivering resource to $YEL1a courier$WHI0 to send to $YEL1{regionName}"
+      text: "Entregando recurso al $YEL1a mensajero$WHI0 para enviar a $YEL1{regionName}"
     pathfindToExtraResource:
-      text: "Picking up additional resource to deliver to $YEL1a courier"
+      text: "Recogiendo recurso adicional para entregar al $YEL1a mensajero"
 
   deliverRoadConstructionResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to deliver to a road"
+      text: "Recogiendo un recurso del suelo para entregarlo a un camino."
     pathfindToBuilding:
       text: "Delivering resource at {buildingName} to a road"
 
@@ -7279,107 +7279,107 @@ aiTask:
       
   digWork:
     pathfindToTerrain:
-      text: "Walking to worksite dig a hole."
+      text: "Caminando al sitio de trabajo para cavar un agujero."
     dig:
-      text: "Digging hole"
+      text: "Cavando agujero."
       
   dismantleWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to dismantle"
+      text: "Caminando a {buildingName} para desmantelar"
     dismantle:
-      text: "Dismantling {buildingName}"
+      text: "Desmantelando {buildingName}"
       
   equipResource:
     pathfindToEquipmentOnGround:
-      text: "Equipping resource on the ground"
+      text: "Equipando recurso del suelo"
     pathfindToBuilding:
-      text: "Equipping resource at {buildingName}"
+      text: "Equipando recurso en {buildingName}"
       
   findBetterHome:
     visitNewHome:
-      text: "Visiting {buildingName} as a possible new home."
+      text: "Visitando {buildingName} como una posible casa nueva."
     visitNewHomeClaim:
-      text: "Trying to claim {buildingName} as a new home."
+      text: "Intentando reclamar {buildingName} como mi nueva casa."
       
   findFood:
     pathfindToResourceOnGround:
-      text: "Walking to nearby food on the ground"
+      text: "Caminando hacia comida cercana en el suelo"
     pathfindToBuilding:
-      text: "Stealing food at {buildingName}"
+      text: "Robando comida en {buildingName}"
 
   findFoodHarvest:
     pathfindToFood:
-      text: "Walking to some unharvested food"
+      text: "Caminando hacia comida sin cosechar"
     harvestFood:
-      text: "Harvesting raw food to eat"
+      text: "Cosechando comida cruda para comer"
       
   findHome:
     searchForHome:
-      text: "Searching for a home."
+      text: "Buscando un lugar donde vivir."
     visitNewHome:
-      text: "Visiting {buildingName} as a possible new home."
+      text: "Visitando {buildingName} como una posible casa nueva."
 
   findJob:
     pathfindToJob:
-      text: "Going to {buildingName} to get a job."
+      text: "Dirigiendose a {buildingName} para conseguir un trabajo¡."
 
   findSpawn:
     findSpawn:
-      text: "Searching for a spawn."
+      text: "Buscando un lugar donde reaparecer."
     pathfindToSpawn:
-      text: "Visiting {buildingName} as a possible spawn home."
+      text: "Visitando {buildingName} como posible lugar donde reaparecer."
     claimSpawn:
-      text: "Trying to claim {buildingName} as a new spawn."
+      text: "Intentando reclamar {buildingName} como un lugar donde reaparecer."
       
   findWaterFountain:
     pathfindToWaterFountain:
-      text: "Going to {buildingName} to drink water."
+      text: "Dirigiendose a {buildingName} para beber agua."
     drinkFromWaterFountain:
-      text: "Drinking water from {buildingName}"
+      text: "Bebiendo agua de {buildingName}"
       
   findWaterHarvest:
     pathfindToWater:
-      text: "Walking to some dirty water!"
+      text: "¡Caminando hacia algo de agua sucia!"
     harvestWater:
-      text: "Drinking dirty water!"
+      text: "¡Bebiendo agua sucia! (¡UGH!)"
 
   frozen:
     frozen:
-      text: "Frozen solid!!"
+      text: "¡¡Completamente helado!!"
 
   goHome:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "Buscando un camino hacia casa {buildingName}"
     pathfindToHome:
-      text: "Going home to {buildingName}"
+      text: "Dirigiendose a casa {buildingName}"
     enterHome:
-      text: "Trying to enter {buildingName}"
+      text: "Intentando entrar en {buildingName}"
       
   golemHealBehavior:
     findRecombobulator:
       text: "Searching for a recombobulator."
     pathfindToRecombobulator:
-      text: "Going to a {buildingName} to heal."
+      text: "Dirigiendose a {buildingName} para curarse."
       
   golemPatrolBehavior:
     pathfindToWaypoint:
-      text: "Patrolling the village"
+      text: "Patrullando la aldea"
       
   grabbed:
     grabbed:
-      text: "Being held by god himself!"
+      text: "¡Siendo agarrado por el mismísimo dios!"
       
   guardPatrolFrontLine:
     pathfindToWaypoint:
-      text: "Patrolling the front lines"
+      text: "Patrullando el frente"
       
   guardPatrolPerimeter:
     pathfindToWaypoint:
-      text: "Patrolling the perimeter"
+      text: "Patrullando el perímetro"
       
   guardPatrolVillage:
     pathfindToWaypoint:
-      text: "Patrolling the village"
+      text: "patrullando la aldea"
       
   guardPost:
     pathfindToBuilding:
@@ -7391,17 +7391,17 @@ aiTask:
       
   guardSummoned:
     pathfindToSummons:
-      text: "Running to protect {mobName}"
+      text: "Corriendo para proteger a {mobName}"
       
   harvestFarmWork:
     pathfindToResource:
-      text: "Walking to farm to harvest food"
+      text: "Caminando hacia la granja para cosechar comida"
     harvestResource:
-      text: "Harvesting materials"
+      text: "Cosechando minerales"
       
   harvestWaterWork:
     pathfindToWater:
-      text: "Walking to worksite harvest some water"
+      text: "Camiando hacia el sitio de trabajo para conseguir algo de agua"
     harvestWater:
       text: "Harvesting water"
       
@@ -7413,33 +7413,33 @@ aiTask:
       
   healthRepair:
     pathfindToBuilding:
-      text: "Going to $YEL1{buildingName} for medical attention"
+      text: "Dirigiendose a $YEL1{buildingName} para buscar atención médica"
     postingWaitingForMedic:
-      text: "Waiting for {mobName}$WHI0 to apply first aid."
+      text: "Esperando a {mobName}$WHI0 para que aplique el protocolo de primeros auxilios."
     postingWaiting:
-      text: "Waiting for medical attention at $YEL1{buildingName}"
+      text: "Esperando atención médica en $YEL1{buildingName}"
       
   incapacitated:
     incapacitated:
-      text: "Incapacitated!"
+      text: "¡Incapacitado!"
       
   inHome:
     inHome:
-      text: "Inside their home"
+      text: "Dentro de su casa"
     sleeping:
-      text: "Sleeping"
+      text: "Durmiendo"
       
   inHomeHiding:
     hiding:
-      text: "Hiding inside their home"
+      text: "Escondiéndose en su casa"
       
   laborerLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region"
+      text: "Saliendo de la región"
       
   laborerPost:
     pathfindToMarketplace:
-      text: "Setting up shop at $YEL1{buildingName}"
+      text: "Creando una tienda en $YEL1{buildingName}"
     sellLabor:
       text: "Selling labor at $YEL1{buildingName}"
       
@@ -8106,7 +8106,7 @@ object:
           text: "Incrementa aún más el alcance máximo, el daño y la munición total."
       fire:
         name:
-          text: "Torre de Balista Incendiaria"
+          text: "Torre de Balista Ardiente"
         description:
           text: "Añade daño por fuego a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará virotes normales hasta que se quede sin munición."
       poison:
@@ -8162,51 +8162,51 @@ object:
     bottler:
       makeshift:
         name:
-          text: "Embotelladora Improvisada"
+          text: "Makeshift Bottler"
         description:
-          text: "Proporciona trabajadores que rellenan botellas de agua para los aldeanos, mejorando así la eficiencia de los aldeanos al reducir los viajes a las fuentes de agua."
+          text: "Provides workers who can bottles up water so villagers can carry some around with them, improving overall village efficiency by cutting down on trips to water sources around the village."
       base:
         name:
-          text: "Embotelladora"
+          text: "Bottler"
         description:
-          text: "Incrementa la velocidad de fabricación, el almacenamiento máximo y ofrece un puesto de embotellador adicional."
+          text: "Grants a global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
       established:
         name:
-          text: "Embotelladora Asentada"
+          text: "Established Bottler"
         description:
-          text: "Incrementa la velocidad de fabricación, el almacenamiento máximo y ofrece un puesto de embotellador adicional."
+          text: "Increases global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
     
     bowTower:
       makeshift:
         name:
-          text: "Torre Arquera Improvisada"
+          text: "Makeshift Bow Tower"
         description:
-          text: "Una torre ligera con un alcance decente que puede disparar por encima de la mayoría de muros. Buena para defensas tempranas. Requiere un Constructor de Arcos para fabricar las flechas."
+          text: "A lightweight tower with decent range that can fire over most walls. Good for early defenses. Requires a bowyer to manufacture ballista bolts for ammunition."
       base:
         name:
-          text: "Torre Arquera"
+          text: "Bow Tower"
         description:
-          text: "Incrementa el alcance máximo, el daño, la velocidad de disparo y la munición máxima."
+          text: "Increases maximum range, damage, firing rate and ammunition storage of the tower."
       established:
         name:
-          text: "Torre Arquera Asentada"
+          text: "Established Bow Tower"
         description:
-          text: "Incrementa aún más el alcance máximo, el daño, la velocidad de disparo y la munición máxima."
+          text: "Further increases maximum range, damage, firing rate and ammunition storage of the tower."
       fire:
         name:
-          text: "Torre Arquera Incendiaria"
+          text: "Fire Bow Tower"
         description:
-          text: "Añade daño por fuego a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará flechas normales hasta que se quede sin munición."
+          text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
       poison:
         name:
-          text: "Torre Arquera Venenosa"
+          text: "Poison Bow Tower"
         description:
-          text: "Añade daño por veneno a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará flechas normales hasta que se quede sin munición."
+          text: "Adds poison damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
       ice:
         name:
-          text: "Torre Arquera Congelante"
+          text: "Ice Bow Tower"
         description:
-          text: "Añade daño por frío a la torre, pero consume energía para disparar. Si las reservas de energía se agotan, disparará flechas normales hasta que se quede sin munición."
+          text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
     
     bowyer:
       makeshift:

@@ -5171,55 +5171,55 @@ sharedDebugData:
   particleCount:
     text: "$RED0Particle Count: {amount}"
   mousePosition:
-    text: "Mouse Position:"
+    text: "Posición de ratón:"
   mouseTile:
     text: "Mouse Tile:"
   mouseMap:
     text: "Mouse Map:"
   gpuModel:
-    text: "GPU Model: {gpuModelName}"
+    text: "Modelo de GPU: {gpuModelName}"
   usedMemory:
-    text: "$CYA1Used Memory:"
+    text: "$CYA1Memoria en uso:"
   freeMemory:
-    text: "$CYA1Free Memory:"
+    text: "$CYA1Memoria libre:"
   totalMemory:
-    text: "$CYA1Total Memory"
+    text: "$CYA1Memoria total"
   maxMemory:
-    text: "$CYA1Max Memory:"
+    text: "$CYA1Memoria máxima:"
   resolution:
-    text: "$ORA1Resolution: $YEL1{width}x{height}"
+    text: "$ORA1Resolución de pantalla: $YEL1{width}x{height}"
   uiScale:
-    text: "$PIN1UI Scale:"
+    text: "$PIN1UI Escala:"
   worldScale:
-    text: "$PIN1World Scale:"
+    text: "$PIN1Escala de mundo:"
   
   terrain:
     baseTerrain:
-      text: "$GRE0Base Terrain:"
+      text: "$GRE0Terreno base:"
     baseTerrainAccent:
-      text: "$GRE0Base Terrain (A):"
+      text: "$GRE0Terreno base (A):"
     terrain:
-      text: "$GRE0Terrain:"
+      text: "$GRE0Terreno:"
     terrainAccent:
-      text: "$GRE0Terrain (A):"
+      text: "$GRE0Terreno (A):"
     corruption:
       text: "$GRE0Corruption:"
     roads:
-      text: "$GRE0Roads:"
+      text: "$GRE0Caminos:"
     lowerTopography:
       text: "$GRE0Lower Topography:"
     lowerTopographyAccent:
       text: "$GRE0Lower Topography (A):"
     bridges:
-      text: "$GRE0Bridges:"
+      text: "$GRE0Puentes:"
     upperTopography:
       text: "$GRE0Upper Topography:"
     upperTopographyAccent:
       text: "$GRE0Upper Topography (A):"
     objects:
-      text: "$GRE0Objects:"
+      text: "$GRE0Objetos:"
     outOfBounds:
-      text: "$RED1Mouse Out of Bounds"
+      text: "$RED1Ratón fuera del límite"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
@@ -5233,12 +5233,12 @@ sharedMinimapPanel:
   
   button:
     small:
-      text: "Small"
+      text: "Pequeño"
     large:
-      text: "Large"
+      text: "Grande"
       
   header:
-    text: "Minimap"
+    text: "Minimapa"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
@@ -5251,7 +5251,7 @@ sharedMusicPanel:
   javaClass: "rtr.gui.states.shared.MusicPanel.java"
       
   header:
-    text: "Music"
+    text: "Música"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared
@@ -6033,14 +6033,14 @@ worldMapGoalsPanel:
   
   button:
     'yes':
-      text: "Yes"
+      text: "Sí"
     'no':
       text: "No"
     reset:
       text: "Reset"
     
   warning: 
-   text: "$GRE1Are you sure? This will remove the~goal, and a new one must be earned."
+   text: "$GRE1¿Estás seguro? Esto eliminará el objetivo, y otro nuevo deberá ser obtenido."
    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6054,13 +6054,13 @@ worldMapMapSelectPanel:
   
   button:
     visitRegion:
-      text: "Visit Region"
+      text: "Visitar región"
     establishVillage:
-      text: "Establish Village"
+      text: "Establecer aldea"
     visitRegionResetAI:
-      text: "Visit Region (Reset AI)"
+      text: "Visitar región (Reinicia IA)"
     close:
-      text: "Close"
+      text: "Cerrar"
     
     tooltip:
       visitRegionResetAIHeader:
@@ -6074,43 +6074,43 @@ worldMapMapSelectPanel:
   
   tooltip:
     corruptionThreatHeader:
-      text: "Corruption Threat"
+      text: "Riesgo de corrupción"
     corruptionThreat:
       text: "The higher this bar, the more dangerous the region will be for your villagers. More monsters will spawn at night, stronger monsters will appear, and corruption will spread more aggressively."
 
   newRegion:
     header:
-      text: "$YEL1New Region"
+      text: "$YEL1Nueva región"
     noMigrants:
-      text: "$YEL1Need more migrants~to establish village!"
+      text: "$YEL1Se necesitan más migrantes~¡para establecer una nueva aldea!"
     migrantsEnRoute:
-      text: "Migrants En Route: $GRE1{amount}"
+      text: "Migrantes en ruta: $GRE1{amount}"
     migrantsRequired:
-      text: "Migrants Required: $RED1{amount}"
+      text: "Migrantes necesarios: $RED1{amount}"
     
   lostRegion:
     header:
-      text: "$RED1Lost Region"
+      text: "$RED1Región perdida"
     lostRegion:
-      text: "$WHI0You have lost this region~to the corruption!"
+      text: "$WHI0Has perdido esta región~¡a la corrupción!"
     
   existingRegion:
     header:
       resources:
-        text: "$YEL1Resources"
+        text: "$YEL1Recursos"
       villagers:
-        text: "$GRE1Villagers"
+        text: "$GRE1Aldeanos"
       monsters:
-        text: "$RED1Monsters"
+        text: "$RED1Monstruos"
       saveRollback:
         text: "$YEL1Save Rollback"
       
   moreResourceTypes:
-    text: "Plus $GRE1{amount}$WHI0 more types."
+    text: "Más $GRE1{amount}$WHI0 de más tipos"
   total:
     text: "$YEL1TOTAL: {amount}"
   none:
-    text: "$YEL1NONE!"
+    text: "$YEL1¡Ninguno!"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6123,15 +6123,15 @@ worldMapRewardChestPanel:
   javaClass: "rtr.gui.states.worldmap.RewardChestPanel.java"
   
   godExperienceHeader:
-    text: "God Experience"
+    text: "Experiencia de dios"
   godExperience:
-    text: "Gain god experience by maintain a good healthy village, or by unlocking and completing goals."
+    text: "Gana experiencia de dios manteniendo una aldea sana, o desbloqueando y completando objetivos."
   chestGrantProgressHeader:
-    text: "Chest Grant Progress"
+    text: "Progreso para sig. cofre"
   chestGrantProgress:
-    text: "Your progress to be granted another chest. Chests are granted slowly as your villages survive. Once granted, must be opened with god experience."
+    text: "Tu progreso para recibir otro cofre.Los cofres son recibidos con la supervivencia de tus aldeanos. Una vez recibido, necesitas gastar experiencia de dios para abrirlo."
   chestGrantProgressFull:
-    text: "Your chest bar is full, you must open a chest to be granted another one."
+    text: "Tu barra de progreso del cofre está llena. Debes abrir este cofre para optar a conseguir otro."
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6145,24 +6145,24 @@ worldMapSystemPanel:
   
   button:
     changeGameMode:
-      text: "Change Game Mode"
+      text: "Cambiar modo de juego"
     
     tooltip:
       mainMenuHeader:
-        text: "Main Menu"
+        text: "Menú principal"
       mainMenu:
-        text: "Return to the main menu."
+        text: "Volver al menú principal."
       doomWorldHeader:
-        text: "Doom World"
+        text: "Aniquilar mundo"
       doomWorld:
-        text: "Completely reset the world, deleting all world progress. But you will keep your unlocked perks, god experience and chests."
+        text: "Reinicia completamente el mundo, borrando todo el progreso realizado en el mundo, aunque no perderás tus ventajas desbloqueadas, experiencia de dios, y tus cofres."
       viewGameModeConfigHeader:
-        text: "View Game Mode Config"
+        text: "Ver la configuración del modo de juego"
       viewGameModeConfig:
-        text: "View the custom game mode configurations you set before starting this world. They can not be changed without dooming the world and starting over."
+        text: "Ver las configuraciones del modo de juego personalizado antes de crear un mundo nuevo, estos ajustes no se pueden cambiar sin aniquilar el mundo y empezando uno nuevo."
 
   header:
-    text: "System Panel" 
+    text: "Panel del sistema" 
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Help Module

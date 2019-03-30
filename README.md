@@ -109,8 +109,8 @@ TO DO...
 * playYouLosePanel
 * sharedDataViewsPanel
 * sharedDebugData
-* sharedMinimapPanel
-* sharedMusicPanel
+* **sharedMinimapPanel**
+* **sharedMusicPanel**
 * playRightObjectDescriptionPanel
 * sharedSettingsPanel
 * sharedTipsPanel
@@ -120,10 +120,10 @@ TO DO...
 * worldMapGameModeConfigPanel
 * worldMapGameModeSelectPanel
 * worldMapGoalClaimPanel
-* worldMapGoalsPanel
+* **worldMapGoalsPanel**
 * worldMapMapSelectPanel
-* worldMapRewardChestPanel
-* worldMapSystemPanel
+* **worldMapRewardChestPanel**
+* **worldMapSystemPanel**
 * helpTip
 * **influence**
 * **spell**
@@ -159,9 +159,9 @@ playStatisticsPanel (Comenzando)
 ### Ninjam
 ```
 aitask:
-dudas en líneas 4033, 7164, 7168, 7178, 7222, 7230, 7272, 7327-7332, 7384-7389, 7400, 7444, 7620-7622,
+dudas en líneas 6106, 4033, 7164, 7168, 7178, 7222, 7230, 7272, 7327-7332, 7384-7389, 7400, 7444, 7620-7622,
 
-
+tooltip
 
 
 

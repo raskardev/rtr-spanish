@@ -6228,23 +6228,23 @@ helpTip:
     ammo:   
       text: "La {buildingName}$WHI0 que acabas de construir necesita munición para funcionar. Necesitarás construir un edificio de fabrique esa munición, como un $YEL1Constructor de Arcos$WHI0 o un $YEL1Tallador$WHI0."
     refineHeader:
-      text: "Refined Materials"
+      text: "Materiales Refinados"
     refineNew:   
-      text: "Some buildings require refined materials, like $YEL1boards$WHI0, $YEL1stone$WHI0 or $YEL1crylithium$WHI0. The {buildingName}$WHI0 you just placed is one of them! If a building requires one of these resources and you have no means to manufacture it they'll do what they can, but the building will never get completed. You can refine most materials inside advanced work buildings, like the $YEL1Lumber Mill$WHI0 and $YEL1Stone Cuttery$WHI0. Both can be found under the refine category in your build tab."
+      text: "Algunos edificios necesitan materiales refinados, como las $YEL1tablas$WHI0, $YEL1piedras$WHI0 o $YEL1crilitio$WHI0. La {buildingName}$WHI0 que acabas de colocar es uno de ellos! Si un edificio requiere uno de estos materiales y no tienes recursos para fabricarlo, tus aldeanos harán lo que puedan, pero el edificio nunca se completará. Puedes refinar la mayoría de materiales desde edificios de trabajos avanzados, como el $YEL1Molino de Madera$WHI0 y la $YEL1Cortadora de Piedras$WHI0. Ambos se encuentran en la pestaña de refinados, dentro del menú de construcción."
     refineReclaim:   
-      text: "Some buildings require refined materials, like $YEL1boards$WHI0, $YEL1stone$WHI0 or $YEL1crylithium$WHI0. The {buildingName}$WHI0 you just tried to reclaim is one of them! If a building requires one of these resources and you have no means to manufacture it they'll do what they can, but the building will never get completed. You can refine most materials inside advanced work buildings, like the $YEL1Lumber Mill$WHI0 and $YEL1Stone Cuttery$WHI0. Both can be found under the refine category in your build tab."
+      text: "Algunos edificios necesitan materiales refinados, como las $YEL1tablas$WHI0, $YEL1piedras$WHI0 o $YEL1crilitio$WHI0. La {buildingName}$WHI0 que acabas de intentar reclamar es uno de ellos! Si un edificio requiere uno de estos materiales y no tienes recursos para fabricarlo, tus aldeanos harán lo que puedan, pero el edificio nunca se completará. Puedes refinar la mayoría de materiales desde edificios de trabajos avanzados, como el $YEL1Molino de Madera$WHI0 y la $YEL1Cortadora de Piedras$WHI0. Ambos se encuentran en la pestaña de refinados, dentro del menú de construcción."
     farmingHeader:
-      text: "Granjaing"
+      text: "Trabajando en la Granja"
     farming:   
-      text: "Your villagers have built their first farm! Once you assign workers, they will need to kickstart the farm with some $GRE1wild food and water$WHI0. You can harvest both with the $GRE1'Harvest Food and Water'$WHI0 button on the left hand GUI. Food grown in farms are maintained and harvested automatically!"
+      text: "Tus aldeanos han construido su primera granja! Una vez que asignes trabajadores, necesitarán ponerla en marcha con un como de $GRE1comida cruda y agua$WHI0. Puedes recolectar ambos con el botón $GRE1'Recolectar Comida y Agua'$WHI0 del panel izquierdo. ¡La comida que crece en las granjas se mantienen y se recolectan automáticamente!"
     buildingPriorityHeader:
       text: "Edificio Priority"
     buildingPriority:   
-      text: "Did you know you can adjust the building priorities? Just select the $YEL1'Building List'$WHI0 button on the $YEL1top right$WHI0 then click the $YEL1up or down arrows$WHI0 to rearrange what buildings have priority over others. Higher priority buildings will get built, dismantled and repaired and before others on the list."
+      text: ¿Sabías que puedes ajustar la prioridad de construcción?" Simplemente selecciona el botón $YEL1'Lista de Edificios'$WHI0 de$YEL1Arriba a la Derecha$WHI0, luego pulsa en las $YEL1flechas arriba o abajo$WHI0 para ajustar la prioridad. A mayor prioridad, los edificios se construirán, desmantelarán y repararán antes que los anteriores de la lista."
     noHomesHeader:
-      text: "Homes"
+      text: "Hogares"
     noHomes:   
-      text: "You're on day {day} and you have not built any $YEL1housing$WHI0, your villagers will need a place to live, or they will be become very unhappy. You also need homes so your villagers can mate, and hopefully have children someday."
+      text: "Es el día {day} y no has construido ninguna $YEL1Casa$WHI0, tus aldeanos necesitan un lugar para vivir, o serán muy infelices. También necesitas hogares para que tus aldeanos puedan aparearse, y con suerte, tener hijos algún día."
     noFarmsHeader:
       text: "Granjaing"
     noFarms:   

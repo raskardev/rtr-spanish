@@ -4977,34 +4977,34 @@ playVillageEfficiencyPanel:
   
   header:
     villageEfficiency:
-      text: "Village Efficiency"
+      text: "Eficiancia de aldeano"
     general:
       text: "$YEL1General"
     harvestSpeed:
-      text: "$YEL1Harvest Speed"
+      text: "$YEL1Velocidad de recogida de recursos"
     refiningSpeed:
-      text: "$YEL1Refining Speed"
+      text: "$YEL1Velocidad de refinación"
       
   globalSpeed:
-    text: "Global Speed"
+    text: "Velocidad Global"
   weather:
-    text: "Weather"
+    text: "Clima"
   building:
     text: "Edificio"
   repairing:
-    text: "Repairing"
+    text: "Reparando"
   buildRoad:
-    text: "Build Road"
+    text: "Construir camino"
   repairRoad:
-    text: "Repair Road"
+    text: "Reparar camino"
   farming:
-    text: "Granjaing"
+    text: "Cosechando"
   medicWork:
-    text: "Medic Work"
+    text: "Trabajando de médico"
   clearing:
-    text: "Clearing"
+    text: "Limpiando"
   dismantling:
-    text: "Dismantling"
+    text: "Desmantelando"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -5019,55 +5019,55 @@ playWeatherPanel:
   button:
     tooltip:
       decreaseGameSpeed:
-        text: "Decrease Game Speed"
+        text: "Reducir velocidad del juego"
       increaseGameSpeed:
-        text: "Increase Game Speed"
+        text: "Incrementar velocidad del juego"
         
   tooltip:
     weatherHeader:
-      text: "Weather"
+      text: "Clima"
     weather:
-      text: "Current weather, temperature and season."
+      text: "El clima actual, así como la temperatura y la estación."
     timeHeader:
-      text: "Time"
+      text: "Tiempo"
     time:
-      text: "Current day, year, time of day and progress through the current time of day."
+      text: "El día actual, así como el año, momento del día, y el progreso del día actual"
 
   weather:
     snowing:
-      text: "$BLU1Snowing"
+      text: "$BLU1Nevando"
     veryCold:
-      text: "$BLU1Very Cold"
+      text: "$BLU1Muy frío"
     coldRain:
-      text: "$CYA1Cold Rain"
+      text: "$CYA1Lluvia muy fría"
     cold:
-      text: "$CYA1Cold"
+      text: "$CYA1Frío"
     chillyRain:
-      text: "$CYA0Chilly Rain"
+      text: "$CYA0Lluvia helada"
     chilly:
-      text: "$CYA0Chilly"
+      text: "$CYA0Helado"
     raining:
-      text: "$GRE0Raining"
+      text: "$GRE0Lloviendo"
     temperate:
-      text: "$GRE0Temperate"
+      text: "$GRE0Templado"
     hotRain:
-      text: "$RED0Hot Rain"
+      text: "$RED0Lluvia caliente"
     veryHot:
-      text: "$RED0Very Hot"
+      text: "$RED0Muy caliente"
     warmRain:
-      text: "$ORA0Warm Rain"
+      text: "$ORA0Agua caliente"
     hot:
-      text: "$ORA0Hot"
+      text: "$ORA0Caliente"
     coolRain:
-      text: "$YEL0Cool Rain"
+      text: "$YEL0Lluvia fresca"
     warm:
-      text: "$YEL0Warm"
+      text: "$YEL0Cálido"
        
   moon:
     full:
-      text: "$BLU0Full Moon"
+      text: "$BLU0Luna llena"
     blood:
-      text: "$RED1Blood Moon"
+      text: "$RED1Luna de sangre"
     eclipse:
       text: "$YEL1Eclipse"
       
@@ -5076,7 +5076,7 @@ playWeatherPanel:
   year:
     text: "$YEL0YEAR {year}" 
   paused:
-    text: "$YEL1Paused"
+    text: "$YEL1Pausado"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State

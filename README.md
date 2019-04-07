@@ -73,45 +73,45 @@ TO DO...
 * mapEditorLoadMapPanel
 * mapEditorNewMapDeleteWarningPanel
 * mapEditorNewMapPanel
-* mainMenuNewProfilePanel
-* mainMenuRestartGamePanel
-* mainMenuSelectProfilePanel
-* mainMenuSkirmishNewGameWarningPanel
-* mainMenuSkirmishPanel
-* mainMenuUploadProfilePanel
+* **mainMenuNewProfilePanel**
+* **mainMenuRestartGamePanel**
+* **mainMenuSelectProfilePanel**
+* **mainMenuSkirmishNewGameWarningPanel**
+* **mainMenuSkirmishPanel**
+* **mainMenuUploadProfilePanel**
 * mapEditorMainMenuPanel
 * mapEditorRegionalDataPanel
 * mapEditorPlayRightPanel
 * mapEditorSystemAndDataBar
 * mapEditorPlayHarvestAndTerrainBar
 * mapEditorWorldMapListPanel
-* playBuildingListPanel
-* playCastlePanel
-* playConsolePanel
-* playLeftJobDescriptionPanel
-* playLeftMigrationDescriptionPanel
-* playLeftPanel
-* playMainMenuPanel
-* playOverlay
-* playPauseBanner
-* playPopulationListPanel
-* playPopulationTotalsPanel
+* **playBuildingListPanel** <------------------------>
+* **playCastlePanel**
+* **playConsolePanel**
+* **playLeftJobDescriptionPanel**
+* **playLeftMigrationDescriptionPanel**
+* **playLeftPanel**
+* **playMainMenuPanel**
+* **playOverlay**
+* **playPauseBanner**
+* **playPopulationListPanel**
+* **playPopulationTotalsPanel**
 * **playProblemPanel**
-* playResourceAndInfluenceBar
+* **playResourceAndInfluenceBar**
 * playSelectedMobPanel
 * playSelectedObjectPanel
 * playSelectedObjectUpgradePanel
-* playSpellBar
+* **playSpellBar**
 * playStatisticsPanel
 * playSystemAndDataBar
-* playToolsBar
-* playVillageEfficiencyPanel
-* playWeatherPanel
+* **playToolsBar**
+* **playVillageEfficiencyPanel**
+* **playWeatherPanel**
 * playYouLosePanel
 * sharedDataViewsPanel
 * sharedDebugData
-* sharedMinimapPanel
-* sharedMusicPanel
+* **sharedMinimapPanel**
+* **sharedMusicPanel**
 * playRightObjectDescriptionPanel
 * sharedSettingsPanel
 * sharedTipsPanel
@@ -121,10 +121,10 @@ TO DO...
 * worldMapGameModeConfigPanel
 * worldMapGameModeSelectPanel
 * worldMapGoalClaimPanel
-* worldMapGoalsPanel
+* **worldMapGoalsPanel**
 * worldMapMapSelectPanel
-* worldMapRewardChestPanel
-* worldMapSystemPanel
+* **worldMapRewardChestPanel**
+* **worldMapSystemPanel**
 * helpTip
 * **influence**
 * **spell**
@@ -132,7 +132,7 @@ TO DO...
 * **missileName**
 * **mobName**
 * aiTask
-* mobJob
+* **mobJob**
 * object
 * **resource**
 * **gameMode**
@@ -143,10 +143,26 @@ TO DO...
 ## Reparto de trabajo
 ### Raskartar
 ```
+object (parte de abajo hacia arriba)
+perk (está empezado, pero es de baja prioridad)
 ```
 ### RoX
 ```
 helpTip (pendiente, mucho curro xD)
-object (a medias)
-mobJob(a medias)
+object (a medias, ES ENORME!!!) (parte de arriba hacia abajo)
+```
+### RaulRevolution
+```
+playSpellBar (Comenzado)
+playStatisticsPanel (Comenzando)
+```
+
+### Ninjam
+```
+aitask:
+dudas en líneas 6106, 4033, 7164, 7168, 7178, 7222, 7230, 7272, 7327-7332, 7384-7389, 7400, 7444, 7620-7622,
+
+
+
+
 ```

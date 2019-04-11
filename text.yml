@@ -7453,17 +7453,17 @@ aiTask:
     findHome:
       text: "Encontrando un camino a casa {buildingName}"
     pathfindToHome:
-      text: "Caminando hacia casa para tener "coito" con {mobName}"
+      text: "Caminando hacia casa para tener 'coito' con {mobName}"
     enterHome:
-      text: "Entrando en casa para tener "coito" con {mobName}"
+      text: "Entrando en casa para tener 'coito' con {mobName}"
       
   mateGoCoitusOther:
     findHome:
       text: "Encontrando un camino a casa {buildingName}"
     pathfindToHome:
-      text: "Caminando hacia casa para tener "coito" con {mobName}"
+      text: "Caminando hacia casa para tener 'coito' con {mobName}"
     enterHome:
-      text: "Entrando en casa para tener "coito" con {mobName}"
+      text: "Entrando en casa para tener 'coito' con {mobName}"
       
   medicWork:
     pathfindToBuilding:

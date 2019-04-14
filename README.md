@@ -102,17 +102,17 @@ TO DO...
 * playSelectedObjectUpgradePanel
 * **playSpellBar**
 * playStatisticsPanel
-* playSystemAndDataBar
+* **playSystemAndDataBar**
 * **playToolsBar**
 * **playVillageEfficiencyPanel**
 * **playWeatherPanel**
-* playYouLosePanel
-* sharedDataViewsPanel
-* sharedDebugData
+* **playYouLosePanel**
+* **sharedDataViewsPanel** ¿?
+* **sharedDebugData**
 * **sharedMinimapPanel**
 * **sharedMusicPanel**
 * playRightObjectDescriptionPanel
-* sharedSettingsPanel
+* **sharedSettingsPanel**
 * sharedTipsPanel
 * **worldMapChestOpenPanel** 
 * **worldMapCorruptionThreatBar** 

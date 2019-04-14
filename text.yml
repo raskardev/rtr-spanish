@@ -4892,41 +4892,41 @@ playSystemAndDataBar:
   button:
     tooltip:
       mainMenuHeader:
-        text: "Main Menu ({shortcutKey})"
+        text: "Menú principal ({shortcutKey})"
       mainMenu:
-        text: "Exit the game, or change some settings."
+        text: "Salir al menú, o cambiar algunos ajustes."
       minimapHeader:
-        text: "Minimap ({shortcutKey})"
+        text: "Mini-mapa ({shortcutKey})"
       minimap:
-        text: "View the entire map."
+        text: "Visualizar el mapa."
       statisticsHeader:
-        text: "Statistics"
+        text: "Estadísticas"
       statistics:
-        text: "View various tracked game statistics."
+        text: "Visualiza diferentes estadísticas del juego."
       dataViewsHeader:
-        text: "Data Views ({shortcutKey})"
+        text: "Vista de información ({shortcutKey})"
       dataViews:
-        text: "View various overlay data maps."
+        text: "Visualiza varios mapas de información."
       problemPanelHeader:
-        text: "Problem Panel ({shortcutKey})"
+        text: "Panel de problemas ({shortcutKey})"
       problemPanel:
-        text: "Lists several red flags in the village that may need taken care of."
+        text: "Enumera los problemas en tu aldea que deberían ser atendidos."
       buildingListHeader:
-        text: "Edificio List ({shortcutKey})"
+        text: "Lista de edificios ({shortcutKey})"
       buildingList:
-        text: "View a list of all buildings within the village, and rearrange construction priority."
+        text: "Visualiza una lista de todos los edificios en la aldea y los ordena en prioridad de construcción."
       populationListHeader:
-        text: "Population List ({shortcutKey})"
+        text: "Lista de población ({shortcutKey})"
       populationList:
-        text: "View the entire village's population, and overall status of the villagers."
+        text: "Visualiza toda la población de la aldea, y el estado general de los aldeanos."
       villagerEfficiencyHeader:
-        text: "Village Efficiency"
+        text: "Eficiencia de la aldea"
       villagerEfficiency:
-        text: "View the village's current overall work speed based on upgraded buildings, god perks, weather and other conditions."
+        text: "Visualiza la velocidad de trabajo general de tus aldeanos basado en los edificios mejorados, ventajas de dios, clima y otros factores."
       musicHeader:
-        text: "Music"
+        text: "Música"
       music:
-        text: "View a list of all available music tracks, and change the current track if desired."
+        text: "Visualiza una lista con todas las canciones, y cambia la canción actual si quieres."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4959,7 +4959,7 @@ playToolsBar:
       dismantleRoadsHeader:
         text: "Desmantelar caminos"
       dismantleRoads:
-        text: "Completely remove a road or path."
+        text: "Destruir completamente una carretera o camino."
       destroyTerrainHeader:
         text: "Destruir terrenos"
       destroyTerrain:
@@ -5090,18 +5090,18 @@ playYouLosePanel:
   
   button:
     abandonRegion:
-      text: ">> Abandon Region <<"
+      text: ">> Abandonar región <<"
       
   congratulations:
-    text: "$YEL1Congratulations."
+    text: "$YEL1Felicidades."
   youLose:
-    text: "$GRE1You've lost the region!"
+    text: "$GRE1¡Has perdido una región!"
   daysSurvived:
-    text: "$WHI0The village survived $GRE1{days}$WHI0 day!"
+    text: "$WHI0¡La aldea ha sobrevivido hasta el día $GRE1{days}$WHI0!"
   daysSurvivedPlural:
-    text: "$WHI0The village survived $GRE1{days}$WHI0 days!"
+    text: "$WHI0¡La aldea sobrevivió hasta el día $GRE1{days}$WHI0!"
   acceptFate:
-    text: "$RED0Accept Fate.."
+    text: "$RED0Aceptar destino..."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
@@ -5115,42 +5115,42 @@ sharedDataViewsPanel:
   
   button:
     resourceValues:
-      text: "Resource Values"
+      text: "Valor de los recursos"
     movementCosts:
-      text: "Movement Costs"
+      text: "Coste de movimiento"
     blockMap:
-      text: "Block Map"
+      text: "Bloquear mapa"
     range:
-      text: "Range"
+      text: "Rango"
     perimeter:
-      text: "Perimeter"
+      text: "Perímetro"
     corruptionResistance:
-      text: "Corruption Resistance"
+      text: "Resistencia a la corrupción"
     desirability:
-      text: "Desirability"
+      text: "Deseabilidad"
     towerRange:
-      text: "Tower Range"
+      text: "Rango de Torre"
     lightningRodRange:
-      text: "Lightning Rod Range"
+      text: "Rango de pararayos"
     hideTopography:
-      text: "Hide Topography"
+      text: "Ocultar topografía"
     collisionMap:
-      text: "Collision Map"
+      text: "Mapa de colisiones"
     shadowMap:
-      text: "Shadow Map"
+      text: "Mapa de sombras"
     depthMap:
-      text: "Depth Map"
+      text: "Fondo del mapa"
     lightValues:
-      text: "Light Values"
+      text: "Valores ligeros"
     paths:
-      text: "Paths"
+      text: "Caminos"
     traffic:
-      text: "Traffic"
+      text: "Tráfico"
     roadDurability:
-      text: "Road Durability"
+      text: "Durabilidad del camino"
       
   header:
-    text: "Data Views"
+    text: "Vista de datos"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
@@ -5165,17 +5165,17 @@ sharedDebugData:
   fps:
     text: "$GRE1FPS: {fps}"
   totalRuntime:
-    text: "$GRE1Total Runtime: {hours}:{minutes}:{seconds}"
+    text: "$GRE1Tiempo con el juego en ejecución: {hours}:{minutes}:{seconds}"
   mapPosition:
-    text: "$BLU0Map Position: {xPosition},{yPosition}"
+    text: "$BLU0Posición del mapa: {xPosition},{yPosition}"
   particleCount:
-    text: "$RED0Particle Count: {amount}"
+    text: "$RED0Número de partículas: {amount}"
   mousePosition:
     text: "Posición de ratón:"
   mouseTile:
-    text: "Mouse Tile:"
+    text: "Recuadro del ratón:"
   mouseMap:
-    text: "Mouse Map:"
+    text: "Mapa del ratón:"
   gpuModel:
     text: "Modelo de GPU: {gpuModelName}"
   usedMemory:
@@ -5183,7 +5183,7 @@ sharedDebugData:
   freeMemory:
     text: "$CYA1Memoria libre:"
   totalMemory:
-    text: "$CYA1Memoria total"
+    text: "$CYA1Memoria total:"
   maxMemory:
     text: "$CYA1Memoria máxima:"
   resolution:
@@ -5203,19 +5203,19 @@ sharedDebugData:
     terrainAccent:
       text: "$GRE0Terreno (A):"
     corruption:
-      text: "$GRE0Corruption:"
+      text: "$GRE0Corrupción:"
     roads:
       text: "$GRE0Caminos:"
     lowerTopography:
-      text: "$GRE0Lower Topography:"
+      text: "$GRE0Topografía baja:"
     lowerTopographyAccent:
-      text: "$GRE0Lower Topography (A):"
+      text: "$GRE0Topografía baja (A):"
     bridges:
       text: "$GRE0Puentes:"
     upperTopography:
-      text: "$GRE0Upper Topography:"
+      text: "$GRE0Topografía alta:"
     upperTopographyAccent:
-      text: "$GRE0Upper Topography (A):"
+      text: "$GRE0Topografía alta (A):"
     objects:
       text: "$GRE0Objetos:"
     outOfBounds:
@@ -5352,220 +5352,220 @@ sharedSettingsPanel:
   
   button:
     ok:
-      text: "Ok!"
+      text: "¡Vale!"
     cancel:
-      text: "Cancel"
+      text: "Cancelar"
     reset:
-      text: "Reset"
+      text: "Reiniciar"
     
   keys:
-    comment: "Key list column."
+    comment: "Lista de teclas asignables"
     header:
-      text: "$ORA1Map Keys"
+      text: "$ORA1Teclas sobre el mapa"
     notSet:
-      text: "NOT SET"
+      text: "SIN ASIGNAR"
     mapUp:
-      text: "Map Up"
+      text: "Mapa arriba"
     mapDown:
-      text: "Map Down"
+      text: "Mapa abajo"
     mapLeft:
-      text: "Map Left"
+      text: "Mapa Izquierda"
     mapRight:
-      text: "Map Right"
+      text: "Mapa Derecha"
     zoomIn:
-      text: "Zoom In"
+      text: "Zoom hacia dentro"
     zoomOut:
-      text: "Zoom Out"
+      text: "Zoom hacia fuera"
     gameSpeedUp:
-      text: "Game Speed Up"
+      text: "Acelerar la velocidad del juego"
     gameSpeedDown:
-      text: "Game Speed Down"
+      text: "Reducir la velocidad del juego"
     minimap:
-      text: "Minimap"
+      text: "Minimapa"
     cycleBrushType:
-      text: "Cycle Brush Type"
+      text: "Cambiar tipo de pincel"
     brushSizeUp:
-      text: "Brush Size Up"
+      text: "Aumentar tamaño de pincel"
     brushSizeDown:
-      text: "Brush Size Down"
+      text: "Disminuir tamaño de pincel"
     debugView:
-      text: "Debug View"
+      text: "Ver información 'debug'"
     screenShot:
-      text: "Screen Shot"
+      text: "Captura de pantalla"
     hideGUI:
-      text: "Hide GUI"
+      text: "Ocultar interfaz"
     gridView:
-      text: "Grid View"
+      text: "Vista del mapa de celdas"
     hideTopography:
-      text: "Hide Topography (Map Editor)"
+      text: "Ocultar topografía (Editor de mapa)"
     fullScreen:
-      text: "Full Screen"
+      text: "Pantalla completa"
     populationList:
-      text: "Population List"
+      text: "Lista de población"
     mainMenu:
-      text: "Main Menu"
+      text: "Menú principal"
     mapInformation:
-      text: "Map Information"
+      text: "Información sobre el mapa"
     dataViews:
-      text: "Data Views"
+      text: "Vista de información"
     problemPanel:
-      text: "Problem Panel"
+      text: "Panel de problemas"
     buildingList:
-      text: "Edificio List"
+      text: "Lista de edificios"
     cancel:
-      text: "Cancel/Escape"
+      text: "Cancelar/Salir"
     accent:
-      text: "Accent/Alt Function"
+      text: "Acentuar/Función Alt"
     erase:
-      text: "Erase (Map Editor)"
+      text: "Borrar (Editor de mapa)"
     objectGrab:
-      text: "Object Grab (Map Editor)"
+      text: "Coger Objeto (Editor de mapa)"
     patch:
-      text: "Patch (Map Editor)"
+      text: "Normalizar (Editor de mapa)"
     hole:
-      text: "Hole (Map Editor)"
+      text: "Agujero (Editor de mapa)"
     pause:
-      text: "Pause"
+      text: "Pausar"
     pauseObject:
-      text: "Pause Object"
+      text: "Pausar objeto"
     dismantleObject:
-      text: "Dismantle Object"
+      text: "Desmantelar objeto"
     grabSpell:
-      text: "Grab Spell"
+      text: "Coger hechizo"
     activeSpell1:
-      text: "Active Spell (Slot 1)"
+      text: "Hechizo activo (Hueco 1)"
     activeSpell2:
-      text: "Active Spell (Slot 2)"
+      text: "Hechizo activo (Hueco 2)"
     activeSpell3:
-      text: "Active Spell (Slot 3)"
+      text: "Hechizo activo (Hueco 3)"
     activeSpell4:
-      text: "Active Spell (Slot 4)"
+      text: "Hechizo activo (Hueco 4)"
     activeSpell5:
-      text: "Active Spell (Slot 5)"
+      text: "Hechizo activo (Hueco 5)"
     harvestWood:
-      text: "Harvest Wood"
+      text: "Recolectar Madera"
     harvestRock:
-      text: "Harvest Rock"
+      text: "Recolectar Roca"
     harvestFoodAndWater:
-      text: "Harvest Food and Water"
+      text: "Recolectar comida y agua"
     harvestCrystal:
-      text: "Harvest Crystals"
+      text: "Recolectar cristales"
     destroyTerrain:
-      text: "Destroy Terrain"
+      text: "Destruir terreno"
     nextTip:
-      text: "Next Tip"
+      text: "Siguiente consejo"
     axisLock:
-      text: "Axis Lock"
+      text: "Bloqueo de ejes"
 
   audio:
-    comment: "Audio column."
+    comment: "Columna de audio."
     header:
       text: "$ORA1Audio"
     musicVolume:
-      text: "$BLU0Music Volume"
+      text: "$BLU0Volumen de la música"
     soundVolume:
-      text: "$BLU0Sound Volume"
+      text: "$BLU0Volumen de los efectos de sonido"
 
   controls:
-    comment: "Controls column."
+    comment: "Lista de controles."
     header:
-      text: "$ORA1Controls"
+      text: "$ORA1Controles"
     invertMapScrolling:
-      text: "Invert Map Scrolling"
+      text: "Invertir desplazamiento del mapa"
     edgeScrolling:
-      text: "Edge Scrolling"
+      text: "Desplazamiento por el borde"
     edgeScrollingFullScreenRecommended:
-      text: "$GRE1Full Screen Recommended"
+      text: "$GRE1Se recomienda la pantalla completa"
     edgeScrollingAmount:
-      text: "Edge Scrolling Amount"
+      text: "Cantidad de desplzamiento por el borde"
 
   videoConfiguration:
-    comment: "Video configuration column."
+    comment: "Columna de vídeo"
     header:
-      text: "$ORA1Video Configuration"
+      text: "$ORA1Configuración de vídeo"
     fullScreen:
-      text: "Full Screen"
+      text: "Pantalla completa"
     borderlessFullScreen:
-      text: "Borderless Full Screen"
+      text: "Pantalla completa sin bordes"
     edgeScrollingNotRecommended:
-      text: "Edge Scrolling NOT Recommended"
+      text: "Desplazamiento por el borde NO recomendado"
     requiresFullScreen:
-      text: "Requires~Full Screen"
+      text: "Requiere~Pantalla completa"
     fixedResolution:
-      text: "Fixed Resolution"
+      text: "Resolución fija"
     fullscreenWithoutBorderlessOnly:
-      text: "Fullscreen without Borderless Only"
+      text: "Sólo Pantalla completa"
     vSync:
       text: "vSync"
     particles:
-      text: "Particles"
+      text: "Partículas"
     particlesRetro:
       text: "RETRO"
     particlesSmooth:
-      text: "SMOOTH"
+      text: "SUAVE"
 
   performance:
-    comment: "Performance column."
+    comment: "Columna de rendimiento."
     header:
-      text: "$ORA1Performance"
+      text: "$ORA1Rendimiento"
     particleAmount:
-      text: "Particle Amount"
+      text: "Cantidad de partículas"
     shadows:
-      text: "Shadows"
+      text: "Sombras"
     autosaveFrequency:
-      text: "Autosave Frequency"
+      text: "Frecuencia de autoguardado"
     clouds:
-      text: "Clouds"
+      text: "Nubes"
     background:
-      text: "Background"
+      text: "Fondo"
 
   screenshake:
-    comment: "Screenshake column."
+    comment: "Columna de temblor de pantalla"
     header:
-      text: "$ORA1Screenshake"
+      text: "$ORA1Temblor de pantalla"
     enabled:
-      text: "Screenshake Enabled"
+      text: "Temblor de pantalla activado"
 
   tips:
-    comment: "Tips column."
+    comment: "Columna de consejos"
     header:
-      text: "$ORA1Tips"
+      text: "$ORA1Consejos"
     enabled:
-      text: "Tips Enabled"
+      text: "Consejos activados"
 
   interfaceScale:
-    comment: "Interface scale column."
+    comment: "Columna de la escala de la interfaz"
     header:
-      text: "$ORA1Interface Scale"
+      text: "$ORA1Escala de la interfaz"
     auto:
       text: "Auto"
     recommended:
-      text: "$GRE1Recommended"
+      text: "$GRE1Recomendada"
     tooHighWarning:
-      text: "$RED1Too high at this resolution!"
+      text: "$RED1¡Demasiado alta para esta resolución!"
     visualErrorsWarning:
-      text: "$RED1May cause visual errors"
+      text: "$RED1Podría causar errores visuales"
 
   twitch:
-    comment: "Twitch integration column."
+    comment: "Columna de integración con Twitch"
     header:
-      text: "$ORA1Twitch Integration"
+      text: "$ORA1Integración con Twitch"
 
   changeKeyPanel:
-    comment: "Change key pop up panel."
+    comment: "Panel para cambiar de tecla."
     header:
-      text: "$ORA1Change Key!"
+      text: "$ORA1¡Cambiar tecla!"
     message:
-      text: "Press the desired hot key~$GRE1CURRENT KEY: {keyName}"
+      text: "Presiona la tecla deseada~$GRE1TECLA ACTUAL: {keyName}"
 
   miscellaneous:
     comment: "Extra strings used in various parts of the panel."
     'false':
-      text: "FALSE"
+      text: "FALSO"
     'true':
-      text: "TRUE"
+      text: "VERDADERO"
     nothingHere:
-      text: "Nothing here!"
+      text: "¡Nada por aquí!"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared

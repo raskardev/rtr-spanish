@@ -1961,7 +1961,7 @@ mainMenuLogo:
   javaClass: "rtr.gui.states.mainmenu.Logo.java"
   
   halloweenQuote:
-    comment: "This only pops up on October 31st."
+    comment: "Esto sólo aparece el 31 de Octubre."
     text: "$ORA1¡Feliz Halloween!"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -2062,9 +2062,9 @@ mapEditorLoadMapDeleteWarningPanel:
   javaClass: "rtr.gui.states.mainmenu.MapEditorLoadMapDeleteWarningPanel.java"
   
   button:
-    'no':
+    'No':
       text: "¡No!"
-    'yes':
+    'Sí':
       text: "¡Sí!"
     yesConfirm:
       text: "¡Que SÍ!"
@@ -2103,9 +2103,9 @@ mapEditorNewMapDeleteWarningPanel:
   javaClass: "rtr.gui.states.mainmenu.MapEditorNewMapDeleteWarningPanel.java"
   
   button:
-    'no':
+    'No':
       text: "¡No!"
-    'yes':
+    'Sí':
       text: "¡Sí!"
     yesConfirm:
       text: "¡Que SÍ!"
@@ -2135,61 +2135,61 @@ mapEditorNewMapPanel:
     grassGreen:
       text: "Hierba (Verde)"
     grassYellowBrown:
-      text: "Grass (Yl-Brn)"
+      text: "Hierba (Marrón amarill.)"
     grassEmeraldGreen:
-      text: "Grass (Em-Grn)"
+      text: "Hierba (Verde esmeral.)"
     dirtLightBrown:
-      text: "Dirt (Lt Brn)"
+      text: "Tierra (Marrón claro)"
     dirtBrown:
-      text: "Dirt (Brown)"
+      text: "Tierra (Marrón)"
     dirtDarkBrown:
-      text: "Dirt (Dk Brn)"
+      text: "Tierra (Marrón oscuro)"
     gravelGray:
-      text: "Gravel (Gray)"
+      text: "Gravilla (Gris)"
     gravelBlue:
-      text: "Gravel (Blue)"
+      text: "Gravilla (Azul)"
     gravelRed:
-      text: "Gravel (Red)"
+      text: "Gravilla (Rojo)"
     bricksGray:
-      text: "Bricks (Gray)"
+      text: "Ladrillo (Gris)"
     tilesGray:
-      text: "Tiles (Gray)"
+      text: "Baldosa (Gris)"
     sandTan:
-      text: "Sand (Tan)"
+      text: "Arena (Marrón pálido)"
     sandBlack:
-      text: "Sand (Black)"
+      text: "Arena (Negro)"
     sandRed:
-      text: "Sand (Red)"
+      text: "Arena (Rojo)"
     mapSize:
       large:
-        text: "Large"
+        text: "Grande"
       medium:
-        text: "Medium"
+        text: "Mediano"
       small:
-        text: "Small"
+        text: "Pequeño"
       empty:
-        text: "Empty"
+        text: "Vacío"
         
   textInput:
     name:
-        text: "Your Map Name"
+        text: "Nombre del mapa"
     author:
-        text: "Your Name"
+        text: "Tu nombre"
         
   header:
     selectPack:
-      text: "$ORA1Select A Map Pack"
+      text: "$ORA1Selecciona un pack de mapas"
     mapName:
-      text: "$ORA1Map Name"
+      text: "$ORA1Nombre del mapa"
     author:
-      text: "$ORA1Map Author"
+      text: "$ORA1Autor del mapa"
     baseTerrain:
-      text: "$ORA1Base Terrain"
+      text: "$ORA1Terreno base"
     size:
-      text: "$ORA1Size"
+      text: "$ORA1Tamaño"
       
   mapExistsWarning:
-    text: "$RED1MAP ALREADY EXISTS IN MAP PACK {mapPackName}"
+    text: "$RED1ESTE MAPA YA EXISTE EN EL PACK DE MAPAS {mapPackName}"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -5595,7 +5595,7 @@ worldMapChestOpenPanel:
   
   button:
     takeIt:
-      text: "Take it!"
+      text: "¡Cógelo!"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -5609,24 +5609,24 @@ worldMapCorruptionThreatBar:
   
   tooltip:
     worldDayHeader:
-      text: "World Day"
+      text: "Día del mundo"
     worldDay:
-      text: "The combined days past on all active regions. This is one of the primary statistics used to calculate world wide corruption threat."
+      text: "El número combinado de los días que han pasado en todas las regiones. Esta estadistica es una de las primarias para calcular el peligro de corrupción a nivel global."
     corruptionPowerHeader:
-      text: "Corruption Power"
+      text: "Poder de la corrupción"
     corruptionPower:
-      text: "This is the numerical calculation of the threat bar below. Positive values mean the threat is higher than baseline, and negative is lower. You can lower the corruption power by completing goals, or migrating to other regions."
+      text: "Esto es el cálculo número del peligro de la barra de abajo. Un valor positivo indica que el peligro es mayor que el peligro base, y negativo que es menor. Puedes bajar el nivel de corrupción completando objetivos, o migrando a otras regiones."
     worldCorruptionThreatHeader:
-      text: "World Corruption Threat"
+      text: "Peligro de corrupción global"
     worldCorruptionThreat:
-      text: "The higher this bar, the more dangerous the world will be for your villagers. More monsters will spawn at night, stronger monsters will appear sooner, and corruption will spread more aggressively."  
+      text: "Cuanto más progreso tenga esta barra, más peligroso será el mundo para tus aldeanos. Por la noche, más monstruos aparecerán, serán más fuertes, y la corrupción se extenderá más agresivamente."  
 
   worldDay:
-    text: "World Day: $GRE1{day}"
+    text: "Día del mundo: $GRE1{day}"
   globalCorruptionPowerGood:
-    text: "Global Corruption Power: $GRE1{amount}" 
+    text: "Poder de la corrupción global: $GRE1{amount}" 
   globalCorruptionPowerBad:
-    text: "Global Corruption Power: +$YEL1{amount}"
+    text: "Poder de la corrupción global: +$YEL1{amount}"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State

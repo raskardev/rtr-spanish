@@ -5956,49 +5956,49 @@ worldMapGameModeSelectPanel:
   
   button:
     nightmare:
-      text: "Nightmare"
+      text: "Pesadilla"
     survival:
-      text: "Survival"
+      text: "Supervivencia"
     traditional:
-      text: "Traditional"
+      text: "Tradicional"
     peaceful:
-      text: "Peaceful"
+      text: "Pacífico"
     custom:
-      text: "Custom"
+      text: "Personalizado"
     sandbox:
       text: "Sandbox"
   
   header:
     nightmare:
-      text: "$RED1Nightmare"
+      text: "$RED1Pesadilla"
     survival:
-      text: "$ORA1Survival"
+      text: "$ORA1Supervivencia"
     traditional:
-      text: "$YEL1Traditional"
+      text: "$YEL1Tradicional"
     peaceful:
-      text: "$GRE1Peaceful"
+      text: "$GRE1Pacífico"
     custom:
-      text: "$CYA1Custom"
+      text: "$CYA1Personalizado"
     sandbox:
       text: "$BLU1Sandbox"
     selectGameMode:
-      text: "$BLU1Select Game Mode"
+      text: "$BLU1Selecciona un modo de juego:"
       
   description:
     nightmare:
-      text: "A nearly impossible game mode designed to challenge even the best players. Expect an unfair and ruthless experience. This mode is for the masochist in all of us.~~$RED0Do NOT pick this game mode. Seriously, just don't!~~"
+      text: "Un modo de juego casi imposible diseñado para ser un reto incluso para los jugadores más experimentados. Cuenta con una experiencia injusta y despiadada. Este modo es para el masoquista dentro de todos nosotros.~~$RED0NO escojas este modo de juego. ENSERIO. ¡No lo hagas!~~"
     survival:
-      text: "The way the game is meant to be played. Unforgivingly brutal, with a steep learning curve.~~$RED0Expect to lose frequently!~~$GRE0Try out traditional mode if survival is too much for you."
+      text: "El modo de juego en el que el juego está pensado para ser jugado. Brutalmente implacable, con una curva de aprendizaje elevada.~~$RED0¡Cuenta con perder frecuentamente!~~$GRE0Prueba el  modo de juego 'tradicional' si el este modo de juego es demasiado para ti."
     traditional:
-      text: "A traditional village simulator experience, with much less monsters.~~This mode is recommended if you want a more relaxed experience, but you want some monsters and light defense mechanics.~~$GRE0The most ideal game mode to learn how to play. But once you learn the ropes, switch to survival!"
+      text: "Una experiencia de simulador de aldeas tradicional, con muchos menos monstruos.~~Te recomendamos este modo de juego si buscas una experiencia más relajada, aunque necesitarás algunos sistemas de defensa.~~$GRE0El modo de juego ideal para aprender a jugar. Una vez entiendas las mecánicas, ¡cambia a 'Supervivencia'!"
     peaceful:
-      text: "A mode with absolutely no monsters what so ever. Just worry about taking care of your village, and survive the passing seasons.~~$GRE0This mode is not recommended unless you're looking for a relaxed, laid back experience with no challenge what so ever."
+      text: "Un modo sin ningún monstruo. Simplemente, preocúpate de tu aldea, y sobrevive las estaciones venideras.~~$GRE0Este modo no está recomendado al menos que busques una experiencia relajada. Disfruta de una aventura sin retos."
     custom:
-      text: "A mode where you set all of the difficulty flags before playing. But once they're set, they can't be changed until you reset the game mode.~~$GRE0This mode is recommended for experienced players who want to experiment with the game's baseline difficulty."
+      text: "Un modo donde puedes editar todos los ajustes de dificultad antes de jugar. Sin embargo, una vez son aplicadas, no pueden ser cambiadas hasta que reinicies el modo de juego.~~$GRE0Recomendamos este modo de juego para jugadores experimentados que quieren experimentar con la dificultad del juego."
     sandbox:
-      text: "No rules! Play around with the game mechanics, change the time of day, spawn in resources and monsters, generate particles. Do whatever you want and just have fun!~~Recommended if you're interested in playing around with the game mechanics.~~Not intended for serious gameplay of any kind."
+      text: "En este modo de juego no hay reglas! Juega con las mecánicas de juego, cambia el momento del día, genera recursos o monstruos, genera partículas. ¡Haz lo que quieras y sobre todo diviertete!~~Desarrollado para pasalo bien, no jugar en serio."
     selectGameMode:
-      text: "Select one of the six a game modes from the left. Each mode is independent from the other five and you can change modes whenever you'd like. If you make too many mistakes, or want a fresh start in any mode, you can reset a game mode by clicking the Doom World button.~~$GRE0If you are a new player, Traditional mode is highly recommended."
+      text: "Selecciona uno de los 6 modos de juego de la derecha. Cada uno es completamente diferente y puedes cambiar modos cuando quieras. Si cometes demasiados errores, o simplemente quieres empezar de nuevo puedes reiniciar el modo de juego haciendo click en el botón 'Matar Mundo'.  ~~$GRE0Si es tu primer mundo, te recomendamos encarecidamente jugar el modo de juego 'Tradicional'."
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6012,14 +6012,14 @@ worldMapGoalClaimPanel:
   
   button:
     takeIt:
-      text: "Take it!"
+      text: "¡Cógelo!"
       
   godExperience: 
-    text: "God Experience: $YEL0{amount}"
+    text: "Experiencia de dios: $YEL0{amount}"
   globalCorruptionPowerAmount:
-    text: "-{amount} Global Corruption Power"
+    text: "-{amount} Poder de corrupción global."
   morePerks:
-    text: "$YEL0Plus {amount} more!"
+    text: "$YEL0Más {amount}! "
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6032,12 +6032,12 @@ worldMapGoalsPanel:
   javaClass: "rtr.gui.states.worldmap.GoalsPanel.java"
   
   button:
-    'yes':
+    'Sí':
       text: "Sí"
-    'no':
+    'No':
       text: "No"
     reset:
-      text: "Reset"
+      text: "Reiniciar"
     
   warning: 
    text: "$GRE1¿Estás seguro? Esto eliminará el objetivo, y otro nuevo deberá ser obtenido."
@@ -6064,19 +6064,19 @@ worldMapMapSelectPanel:
     
     tooltip:
       visitRegionResetAIHeader:
-        text: "Reset AI"
+        text: "Reiniciar IA"
       visitRegionResetAI:
-        text: "This will reset all mob AI to idle, useful in rare cases where the AI may be causing the game to crash or freeze. Recommended to try before you use the save rollback mechanics."
+        text: "Esto reiniciará la IA de los animales, útil para los casos raros donde la IA causa problemas con el juego, como cierres inesperados o congelaciones. Es recomendable hacerlo antes de que uses las mecánicas para retroceder en los archivos de guardado."
       rollbackSaveHeader:
-        text: "Rollback Save"
+        text: "Retroceder archivo de guardado"
       rollbackSave:  
-        text: "$RED1WARNING: This can NOT be undone, and may have adverse side effects to your world map progress. This should never be used for save scumming. Only for fixing corrupted save files!"
+        text: "$RED1ATENCIÓN: Esto NO se puede revertir, y podría tener efectos adversos en tu progreso del mapa del mundo. Esto no debería ser utilizado para cargar el mundo antes de las decisiones importantes. ¡Sólo para arreglar archivos de guardado corruptos!"
   
   tooltip:
     corruptionThreatHeader:
       text: "Riesgo de corrupción"
     corruptionThreat:
-      text: "The higher this bar, the more dangerous the region will be for your villagers. More monsters will spawn at night, stronger monsters will appear, and corruption will spread more aggressively."
+      text: "Cuanto más avance esta barra, más peligrosa será esta región para tus aldeanos. Durante la noche, más monstruos aparecerán, serán más fuertes, y la corrupción se propagará más agresivamente."
 
   newRegion:
     header:

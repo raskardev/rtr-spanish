@@ -118,10 +118,10 @@ TO DO...
 * worldMapCorruptionThreatBar
 * worldMapDoomWorldPanel
 * worldMapGameModeConfigPanel
-* worldMapGameModeSelectPanel
-* worldMapGoalClaimPanel
+* **worldMapGameModeSelectPanel**
+* **worldMapGoalClaimPanel**
 * **worldMapGoalsPanel**
-* worldMapMapSelectPanel
+* **worldMapMapSelectPanel**
 * **worldMapRewardChestPanel**
 * **worldMapSystemPanel**
 * helpTip

@@ -2443,16 +2443,16 @@ mapEditorRegionalDataPanel:
   
   button:
     save:
-      text: "Save"
+      text: "Guardar"
       
   header:
-    text: "Region List"
+    text: "Lista de regiones"
   connectedRegions:
-    text: "Connected Regions"
+    text: "Regiones conectadas"
   notSetPlaceholder:
-    text: "Not Set"
+    text: "Sin asignar"
   worldMapCoordinates:
-    text: "World Map Coordinates"
+    text: "Coordenadas del mapa mundial"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
@@ -2997,13 +2997,13 @@ mapEditorSystemAndDataBar:
   button:
     tooltip:
       mainMenuHeader:
-        text: "Main Menu ({shortcutKey})"
+        text: "Menú principal ({shortcutKey})"
       mainMenu:
         text: "Exit the map editor, or change some settings."
       saveMapHeader:
         text: "Save Map"
       minimapHeader:
-        text: "Minimap ({shortcutKey})"
+        text: "Minimapa ({shortcutKey})"
       minimap:
         text: "View the entire map."
       dataViewsHeader:
@@ -3011,11 +3011,11 @@ mapEditorSystemAndDataBar:
       dataViews:
         text: "View various overlay data maps."
       hideTopographyHeader:
-        text: "Hide Topography ({shortcutKey})"
+        text: "Ocultar topografía ({shortcutKey})"
       hideTopography:
         text: "Hide the topography layer of the map, making it easier to draw terrain under it."
       musicHeader:
-        text: "Music"
+        text: "Música"
       music:
         text: "View a list of all available music tracks, and change the current track if desired."
       regionalDataHeader:
@@ -3038,63 +3038,63 @@ mapEditorPlayHarvestAndTerrainBar:
   button:
     tooltip:
       circleBrushHeader:
-        text: "Circle Brush ({shortcutKey})"
+        text: "Pincel circular ({shortcutKey})"
       filletedSquareBrushHeader:
-        text: "Filleted Square Brush ({shortcutKey})"
+        text: "Pincel cuadrado relleno ({shortcutKey})"
       chamferedSquareBrushHeader:
-        text: "Chamfered Square Brush ({shortcutKey})"
+        text: "Pincel cuadrado biselado ({shortcutKey})"
       squareBrushHeader:
-        text: "Square Brush ({shortcutKey})"
+        text: "Pincel cuadrado ({shortcutKey})"
       decreaseBrushSizeHeader:
-        text: "Decrease Size ({shortcutKey})"
+        text: "Reducir tamaño ({shortcutKey})"
       increaseBrushSizeHeader:
-        text: "Increase Size ({shortcutKey})"
+        text: "Aumentar tamaño ({shortcutKey})"
       harvestWoodHeader:
-        text: "Harvest Wood ({shortcutKey})"
+        text: "Recolectar madera ({shortcutKey})"
       harvestWood:
         text: "Assign forest to be harvested by lumberjacks and builders. Builders will only harvest materials if they have an active construction project."
       harvestRockHeader:
-        text: "Harvest Rock ({shortcutKey})"
+        text: "Recolectar roca ({shortcutKey})"
       harvestRock:
         text: "Assign mountains to be harvested by miners and builders. Builders will only harvest materials if they have an active construction project."
       harvestFoodAndWaterHeader:
-        text: "Harvest Food and Water ({shortcutKey})"
+        text: "Recolectar comida y agua ({shortcutKey})"
       harvestFoodAndWater:
         text: "Assign wild food and water sources to be harvested by farmers and water masters to be used in farms and water purifiers. Farmers will only harvest water for use in their farms."
       harvestCrystalHeader:
-        text: "Harvest Crystal ({shortcutKey})"
+        text: "Recolectar cristales ({shortcutKey})"
       harvestCrystal:
         text: "Assign crystal fields to be harvested by crystal harvesters and builders. Builders will only harvest materials if they have an active construction project."
       accentModeHeader:
-        text: "Accent Mode ({shortcutKey})"
+        text: "Modo acentuado ({shortcutKey})"
       accentMode:
         text: "Locks the terrain brush tool into drawing the accent layer terrain."
       eraseAllHeader:
-        text: "Erase All ({shortcutKey})"
+        text: "Borrar todo ({shortcutKey})"
       eraseAll:
         text: "Erase everything within the brush radius."
       eraseTerrainHeader:
-        text: "Erase Terrain ({shortcutKey})"
+        text: "Borrar terreno ({shortcutKey})"
       eraseTerrain:
         text: "Erase the terrain under the topography within the brush radius."
       eraseTopographyHeader:
-        text: "Erase Topography ({shortcutKey})"
+        text: "Borrar topografía ({shortcutKey})"
       eraseTopography:
         text: "Erase trees, water, rock and other top level terrain within the brush radius."
       eraseObjectsHeader:
-        text: "Erase Objects ({shortcutKey})"
+        text: "Borrar objetos ({shortcutKey})"
       eraseObjects:
         text: "Erase all buildings, walls and other objects within the brush radius."
       eraseRoadsHeader:
-        text: "Erase Roads ({shortcutKey})"
+        text: "Borrar caminos ({shortcutKey})"
       eraseRoads:
         text: "Erase all roads within the brush radius."
       holeHeader:
-        text: "Hole ({shortcutKey})"
+        text: "Agujero ({shortcutKey})"
       hole:
         text: "Completely remove all terrain, including the base layer within the brush radius."
       patchHeader:
-        text: "Patch ({shortcutKey})"
+        text: "Normalizar ({shortcutKey})"
       patch:
         text: "Replace the terrain within the brush radius."
 
@@ -5579,9 +5579,9 @@ sharedTipsPanel:
   
   button:
     ok:
-      text: "OK!"
+      text: "¡Vale!"
     nextTip:
-      text: "Next Tip"
+      text: "Siguiente consejo"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State

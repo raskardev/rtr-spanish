@@ -2999,29 +2999,29 @@ mapEditorSystemAndDataBar:
       mainMenuHeader:
         text: "Menú principal ({shortcutKey})"
       mainMenu:
-        text: "Exit the map editor, or change some settings."
+        text: "Salir al menú, o cambiar algunos ajustes."
       saveMapHeader:
-        text: "Save Map"
+        text: "Guardar el mapa"
       minimapHeader:
         text: "Minimapa ({shortcutKey})"
       minimap:
-        text: "View the entire map."
+        text: "Visualiza el mapa completo."
       dataViewsHeader:
-        text: "Data Views ({shortcutKey})"
+        text: "Visualización de información ({shortcutKey})"
       dataViews:
-        text: "View various overlay data maps."
+        text: "Visualiza varias capas de información sobre el mapa."
       hideTopographyHeader:
         text: "Ocultar topografía ({shortcutKey})"
       hideTopography:
-        text: "Hide the topography layer of the map, making it easier to draw terrain under it."
+        text: "Ocultar la capa de topografía del mapa, haciendo más facil el dibujar terreno debajo de ella."
       musicHeader:
         text: "Música"
       music:
-        text: "View a list of all available music tracks, and change the current track if desired."
+        text: "Visualiza una lista de las canciones disponibles y cambia la canción actual si lo deseas."
       regionalDataHeader:
-        text: "Regional Data"
+        text: "Información regional."
       regionalData:
-        text: "Change the regions this map is connected to, as well as its location on the world map."
+        text: "Cambiar las regiones a las que este mapa está conectado, así como su localización en el mapa del mundo."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
@@ -3052,7 +3052,7 @@ mapEditorPlayHarvestAndTerrainBar:
       harvestWoodHeader:
         text: "Recolectar madera ({shortcutKey})"
       harvestWood:
-        text: "Assign forest to be harvested by lumberjacks and builders. Builders will only harvest materials if they have an active construction project."
+        text: "Asigna un busque para ser recolectado por leñadores y constructores. Los constructores sólo ayudarán si tienen un proyecto de construcción activo. "
       harvestRockHeader:
         text: "Recolectar roca ({shortcutKey})"
       harvestRock:
@@ -3060,43 +3060,43 @@ mapEditorPlayHarvestAndTerrainBar:
       harvestFoodAndWaterHeader:
         text: "Recolectar comida y agua ({shortcutKey})"
       harvestFoodAndWater:
-        text: "Assign wild food and water sources to be harvested by farmers and water masters to be used in farms and water purifiers. Farmers will only harvest water for use in their farms."
+        text: "Asigna fuentes de comida y agua para ser recolectada por granjeros y maestros del agua para ser usadas en granjas y purificadores de agua. Los granjeros sólo recolectarán para el uso futuro en sus granjas."
       harvestCrystalHeader:
         text: "Recolectar cristales ({shortcutKey})"
       harvestCrystal:
-        text: "Assign crystal fields to be harvested by crystal harvesters and builders. Builders will only harvest materials if they have an active construction project."
+        text: "Asigna terrenos de cristal para ser recolectados por recolectores de cristal y constructores. Los constructores sólo ayudarán si tienen un proyecto de construcción activo."
       accentModeHeader:
         text: "Modo acentuado ({shortcutKey})"
       accentMode:
-        text: "Locks the terrain brush tool into drawing the accent layer terrain."
+        text: "Bloquea la herramienta de pincel en el modo de dibujo acentuado de terreno."
       eraseAllHeader:
         text: "Borrar todo ({shortcutKey})"
       eraseAll:
-        text: "Erase everything within the brush radius."
+        text: "Borra todo lo que esté dentro del radio del pincel."
       eraseTerrainHeader:
         text: "Borrar terreno ({shortcutKey})"
       eraseTerrain:
-        text: "Erase the terrain under the topography within the brush radius."
+        text: "Borra el terreno debajo de la topografía dentro del radio del pincel."
       eraseTopographyHeader:
         text: "Borrar topografía ({shortcutKey})"
       eraseTopography:
-        text: "Erase trees, water, rock and other top level terrain within the brush radius."
+        text: "Borra árboles, agua, roca y otro tipo de terreno de capa alta dentro del radio del pincel."
       eraseObjectsHeader:
         text: "Borrar objetos ({shortcutKey})"
       eraseObjects:
-        text: "Erase all buildings, walls and other objects within the brush radius."
+        text: "Borrar todos los edificios, paredes y otros objetos dentro del radio del pincel."
       eraseRoadsHeader:
         text: "Borrar caminos ({shortcutKey})"
       eraseRoads:
-        text: "Erase all roads within the brush radius."
+        text: "Borra todos los caminos dentro del radio del pincel."
       holeHeader:
         text: "Agujero ({shortcutKey})"
       hole:
-        text: "Completely remove all terrain, including the base layer within the brush radius."
+        text: "Remover completamente todo el terreno dentro del área del pincel, incluyendo la capa base."
       patchHeader:
         text: "Normalizar ({shortcutKey})"
       patch:
-        text: "Replace the terrain within the brush radius."
+        text: "Reemplazar el terreno dentro del area del pincel."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
@@ -3110,9 +3110,9 @@ mapEditorWorldMapListPanel:
   
   header:
     regionList:
-      text: "Region List"
+      text: "Lista de regiones"
     miniMap:
-      text: "Mini Map"
+      text: "Mini mapa"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -5265,15 +5265,15 @@ playRightObjectDescriptionPanel:
   
   header:
     constructionRequirements:
-      text: "Construction Requirements"
+      text: "Requisitos de construcción"
     requiredSupport:
-      text: "Required Support"
+      text: "Soporte requerido"
     recommendedSupport:
-      text: "Recommended Support"
+      text: "Soporte recomendado"
     canStore:
-      text: "Can Store"
+      text: "Puede almacenar"
     canRefineOrManufacture:
-      text: "Can Refine/Manufacture"
+      text: "Puede refinar/fabricar"
     defensiveTower:
       text: "Defensive Tower"
     
@@ -5282,33 +5282,33 @@ playRightObjectDescriptionPanel:
   supportConjuntion:
     text: "$WHI0 or $RED0"
   maximumStorage:
-    text: "Maximum Storage: $GRE1{amount}"
+    text: "Máxima capacidad $GRE1{amount}"
   energy:
-    text: "$YEL1{amount} Energy"
+    text: "$YEL1{amount} Energía"
   staticTowerDamageOverride:
-    text: "Damage: $GRE1Electric (3-8)"
+    text: "Daño: $GRE1Eléctrico (3-8)"
   chargedDamage:
-    text: "Charged Damage: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
+    text: "Daño con carga: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
   damage:
-    text: "Damage: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
+    text: "Daño: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
   unchargedDamage:
-    text: "Uncharged Damage: {damageType} $RED0({damageMinimum}-{damageMaximum})"
+    text: "Daño sin carga: {damageType} $RED0({damageMinimum}-{damageMaximum})"
   fires:
     text: "Fires: $GRE1{ammoName}"
   ammo:
     text: "Ammo Per Bundle: $GRE1{amount}"
   energyPerShot:
-    text: "Energy Per Shot: $GRE1{amount}"
+    text: "Energía por disparo: $GRE1{amount}"
   reloadTime:
-    text: "Reload Time: $GRE1{amount}"
+    text: "Tiempo de recarga: $GRE1{amount}"
   firingRange:
-    text: "Firing Range: $GRE1{amount}"
+    text: "Campo de tiro: $GRE1{amount}"
   canSpawnCreatures:
-    text: "Can Spawn Creatures"
+    text: "Puede hacer aparecer criaturas"
   spawnsMob:
-    text: "Spawns $GRE1{mobName}"
+    text: "Hace aparecer $GRE1{mobName}"
   maximumSpawns:
-    text: "Maximum Spawns: $GRE1{amount}"
+    text: "Reapariciones máximas: $GRE1{amount}"
   spawnNeedsResourcesAndEnergy:
     text: "Needs $GRE1{resourceName}$WHI0 and $GRE1{amount} Energy$WHI0 to Spawn"
   spawnNeedsEnergy:
@@ -5316,19 +5316,19 @@ playRightObjectDescriptionPanel:
   spawnNeedsResources:
     text: "Needs $GRE1{resourceName}$WHI0 to Spawn"
   rangeGenerated:
-    text: "Range Generated: $GRE1{amount}"
+    text: "Rango generado: $GRE1{amount}"
   desirability:
-    text: "Desirability: $GRE1{amount}"
+    text: "Atractividad: $GRE1{amount}"
   corruptionResistance:
-    text: "Corruption Resistance: $GRE1{amount}"
+    text: "Resistencia a la corrupción: $GRE1{amount}"
   providedMigrationsPerDay:
     text: "Provided Migrations Per Day: $GRE1{amount}"
   guardHousingCapacity:
     text: "Guard Housing Capacity: $GRE1{amount}"
   housingCapacity:
-    text: "Housing Capacity: $GRE1{amount}"
+    text: "Capacidad de alojamiento: $GRE1{amount}"
   workersSlots:
-    text: "Workers Slots: $GRE1{amount} {mobJobName}"
+    text: "Huecos de trabajadores: $GRE1{amount} {mobJobName}"
   buildingSlotsProvided:
     text: "Edificio Slots Provided: $GRE1{amount}"
   acceptsEssence:
@@ -5338,7 +5338,7 @@ playRightObjectDescriptionPanel:
   consumesCrylithium:
     text: "Consumes Crylithium for Fuel"
   canBuildRoads:
-    text: "Can Build Roads"
+    text: "Puede construir caminos"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared

@@ -99,7 +99,7 @@ TO DO...
 * **playResourceAndInfluenceBar**
 * **playSelectedMobPanel**
 * playSelectedObjectPanel
-* playSelectedObjectUpgradePanel
+* **playSelectedObjectUpgradePanel**
 * **playSpellBar**
 * **playStatisticsPanel**
 * **playSystemAndDataBar**

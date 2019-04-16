@@ -80,7 +80,7 @@ TO DO...
 * **mainMenuUploadProfilePanel**
 * **mapEditorMainMenuPanel**
 * **mapEditorRegionalDataPanel**
-* mapEditorPlayRightPanel
+* **mapEditorPlayRightPanel**
 * **mapEditorSystemAndDataBar**
 * **mapEditorPlayHarvestAndTerrainBar**
 * **mapEditorWorldMapListPanel**
@@ -160,7 +160,6 @@ playStatisticsPanel (Comenzando)
 ```
 aitask:
 dudas en líneas 6106, 4033, 7164, 7168, 7178, 7222, 7230, 7272, 7327-7332, 7384-7389, 7400, 7444, 7620-7622,
-playRightObjectDescriptionPanel
 
 
 ```

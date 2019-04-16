@@ -4555,329 +4555,329 @@ playStatisticsPanel:
   button:
     primary:
       villagers:
-        text: "Villagers"
+        text: "Aldeanos"
       animals:
-        text: "Animals"
+        text: "Animales"
       monsters:
-        text: "Monsters"
+        text: "Monstruos"
       buildings:
         text: "Edificios"
       defenses:
-        text: "Defenses"
+        text: "Defensas"
       resources:
-        text: "Resources"
+        text: "Recursos"
       magicAndEnergy:
-        text: "Magic and Energy"
+        text: "Magia y energía"
       other:
-        text: "Other"
+        text: "Otros"
         
     villagers:
       total:
         text: "Total"
       gender:
-        text: "Gender"
+        text: "Género"
       immigration:
-        text: "Immigration"
+        text: "Inmigración"
       reproduction:
-        text: "Reproduction"
+        text: "Reproducción"
       deaths:
-        text: "Deaths"
+        text: "Muertes"
       needs:
-        text: "Needs"
+        text: "Necesidades"
       catjeetHired:
-        text: "Catjeet Hired"
+        text: "'Catjeet' contratados"
       nomadsJoined:
-        text: "Nomads Joined"
+        text: "Nómadas que se han unido"
       nomadsVisited:
-        text: "Nomads Visited"
+        text: "Nómadas visitados"
       births:
-        text: "Births"
+        text: "Nacimientos"
       grownUp:
-        text: "Grown Up"
+        text: "Adultos"
       coitus:
-        text: "Coitus"
+        text: "Coito"
       pregnancies:
-        text: "Pregnancies"
+        text: "Embarazos"
       newPregnancies:
-        text: "New Pregnancies"
+        text: "Nuevos embarazos"
       averageHunger:
-        text: "Average Hunger"
+        text: "Hambre media"
       averageThirst:
-        text: "Average Thirst"
+        text: "Sed media"
       averageEnergy:
-        text: "Average Energy"
+        text: "Energía media"
       averageHappiness:
-        text: "Average Happiness"
+        text: "Felicidad media"
     
     animals:
       total:
         text: "Total"
       gender:
-        text: "Gender"
+        text: "Género"
       domesticated:
-        text: "Domesticated"
+        text: "Domesticados"
       deaths:
-        text: "Deaths"
+        text: "Muertes"
       needs:
-        text: "Needs"
+        text: "Necesidades"
       averageHunger:
-        text: "Average Hunger"
+        text: "Hambre media"
       averageThirst:
-        text: "Average Thirst"
+        text: "Sed media"
       averageEnergy:
-        text: "Average Energy"
+        text: "Energía media"
       averageHappiness:
-        text: "Average Happiness"
+        text: "Felicidad media"
         
     buildings:
       totalBuildings:
         text: "Total"
       builtBuildings:
-        text: "Built"
+        text: "Construidos"
       upgradedBuildings:
-        text: "Upgraded"
+        text: "Mejorados"
       destroyedBuildings:
-        text: "Destroyed"
+        text: "Destrozados"
       dismantledBuildings:
-        text: "Dismantled"
+        text: "Desmantelados"
         
     defenses:
       totalDefense:
-        text: "Towers"
+        text: "Torres"
       combobulators:
-        text: "Combobulators"
+        text: "Combobuladores"
       golems:
         text: "Golems"
       guards:
-        text: "Guards"
+        text: "Guardias"
       walls:
         text: "Murallas"
           
     monsters:
       totalCorruption:
-        text: "Total Corruption"
+        text: "Corrupción total"
       spreadAmount:
-        text: "Spread Amount"
+        text: "Cantidad de propagación"
       buildings:
         text: "Edificios"
       drones:
-        text: "Total Drones"
+        text: "Drones Totales"
       spawned:
-        text: "Monsters Spawned"
+        text: "Monstruos aparecidos"
       killed:
-        text: "Killed"
+        text: "Matados"
         
     resources:
       totalResources:
         text: "Total"
       productionRate:
-        text: "Production Rate"
+        text: "Tasa de producción"
       foodAndWater:
-        text: "Food and Water Rate"
+        text: "Tasa de comida y agua"
     
     magicAndEnergy:
       essenceGenerated:
-        text: "Essence Generated"
+        text: "Esencia generada"
       essenceDecayed:
-        text: "Essence Decayed"
+        text: "Esencia deteriorada"
       energy:
-        text: "Energy"
+        text: "Energía"
       influenceSpent:
-        text: "Influence Spent"
+        text: "Influencia gastada"
       influenceGenerated:
-        text: "Influence Generated"
+        text: "Influencia generada"
     
     filter:
       all:
-        text: "All"
+        text: "Todo"
       previousPage:
-        text: "Previous Page"
+        text: "Página anterior"
       nextPage:
-        text: "Next Page"
+        text: "Página siguiente"
       previousCategory:
-        text: "Previous Category"
+        text: "Anterior categoría"
       nextCategory:
-        text: "Next Category"
+        text: "Siguiente categoría"
     
     graph:
       dayBack:
-        text: "Day Back"
+        text: "Un día atrás"
       dayForward:
-        text: "Day Forward"
+        text: "Un día adelante"
       firstDay:
-        text: "First Day"
+        text: "Primer día"
       lastDay:
-        text: "Last Day"
+        text: "Último día"
 
   descriptions:
     villagers:
       total:
-        text: "The daily population count of the village."
+        text: "El número de aldeanos en la aldea"
       genderBarOne:
-        text: "Male"
+        text: "Hombre"
       genderBarTwo:
-        text: "Female"
+        text: "Mujer"
       gender:
-        text: "The daily population count of each gender in the village."
+        text: "La población diaria de cada género en la aldea."
       deaths:
-        text: "How many villagers have died per day."
+        text: "Cuántos aldeanos mueren al día."
       catjeetHired:
-        text: "How many Catjeet have been hired per day."
+        text: "Cuántos 'Catjeet' han sido contratados por día."
       nomadsJoined:
-        text: "How many Nomads have joined the village per day."
+        text: "Cuántos nómadas se han unido a la aldea."
       nomadsVisited:
-        text: "How many Nomads have visited the region per day."
+        text: "Cuántos nómadas han visitado la región por día."
       births:
-        text: "How many villagers have been born per day."
+        text: "Cuántos aldeanos han nacido por día."
       grownUp:
-        text: "How many villagers have grown into adults per day."
+        text: "Cuántos aldeanos se han convertido en adultos por día."
       coitus:
-        text: "How many villagers attempted to reproduce per day."
+        text: "Cuántos aldeanos han intentado reproducirse por día."
       pregnancies:
-        text: "How many total villagers are pregnant per day."
+        text: "Cuántos aldeanos están embarazados por día."
       newPregnancies:
-        text: "How many villagers became pregnant per day."
+        text: "Cuántos aldeanos han sido embarazados por día."
       averageHunger:
-        text: "The average hunger levels of the village per day."
+        text: "Los niveles de hambre media de la aldea por día."
       averageThirst:
-        text: "The average thirst levels of the village per day."
+        text: "Los niveles de sed media de la aldea por día."
       averageEnergy:
-        text: "The average energy levels of the village per day."
+        text: "Los niveles de energía de la aldea por día."
       averageHappiness:
-        text: "The average happiness levels of the village per day."
+        text: "La felicidad media de la aldea por día."
     
     animals:
       total:
-        text: "The daily population count of the domesticated animals in the village."
+        text: "La población diaria de animales domésticos en la aldea."
       genderBarOne:
-        text: "Male"
+        text: "Hombre"
       genderBarTwo:
-        text: "Female"
+        text: "Mujer"
       gender:
-        text: "The daily population count of each domesticated animal's gender in the village."
+        text: "La población diaria de cada género de animal doméstico en la aldea."
       domesticated:
-        text: "How many animals were domesticated per day."
+        text: "Cuántos animales fueron domesticados por día."
       deaths:
-        text: "How many domesticated animals have died per day."
+        text: "Cuántos animales domésticos han muerto por día."
       averageHunger:
-        text: "The average hunger levels of the domesticated animals per day."
+        text: "Los niveles de hambre media de los animales domésticos por día."
       averageThirst:
-        text: "The average thirst levels of the domesticated animals per day."
+        text: "Los niveles de sed media de los animales dómesticos por día."
       averageEnergy:
-        text: "The average energy levels of the domesticated animals per day."
+        text: "Los niveles de energía media de los animales domésticos por día."
       averageHappiness:
-        text: "The average happiness levels of the domesticated animals per day."
+        text: "Los niveles de felicidad media de los animales domésticos por día."
     
     monsters:
       totalCorruptionBar:
-        text: "Tiles"
+        text: "Baldosas"
       totalCorruption:
-        text: "Total amount of tiles that are corrupted."
+        text: "Número total de baldosas que son corruptas."
       spreadAmountBar:
-        text: "Tiles"
+        text: "Baldosas"
       spreadAmount:
-        text: "Total amount of additional tiles that have been corrupted per day."
+        text: "Número total de baldosas adicionales que ahora son corruptas, por día. "
       buildings:
-        text: "Total amount of corrupted buildings on the map."
+        text: "Cantidad total de edificios corruptos en el mapa."
       drones:
-        text: "Total amount of drones inside the corruption."
+        text: "Número total de drones dentro de la corrupción."
       spawned:
-        text: "How many monsters have spawned per day."
+        text: "Cuántos monstruos han aparecido por día."
       killed:
-        text: "How many monsters have been killed per day."
+        text: "Cuántos monstruos han sido asesinados por día."
     
     buildings:
       totalBuildingsBarOne:
-        text: "Total Buildings"
+        text: "Edificios totales"
       totalBuildingsBarTwo:
-        text: "Available Slots"
+        text: "Huecos disponibles"
       totalBuildings:
-        text: "All buildings in the village that take up a building slot, and how many building slots are available."
+        text: "Todos los edificios en la aldea que ocupan un hueco de edificación, y cuántos de estos huecos están disponibles."
       builtBuildings:
-        text: "How many new buildings have been built per day. Does not count walls."
+        text: "Cuántos edificios nuevos han sido construidos por día. Las murallas no cuentan."
       upgradedBuildings:
-        text: "How many buildings were upgraded per day."
+        text: "Cuántos edificios han sido mejorados por día."
       destroyedBuildings:
-        text: "How many buildings were destroyed per day."
+        text: "Cuántos edificios han sido destrozados por día."
       dismantledBuildings:
-        text: "How many buildings were dismantled per day."
+        text: "Cuántos edificios han sido desmantelados por día."
     
     defenses:
       totalDefense:
-        text: "Total count of all towers in the village."
+        text: "Número total de torres en la aldea."
       combobulatorsBarOne:
-        text: "Total Golems"
+        text: "Golems totales"
       combobulatorsBarTwo:
-        text: "Total Combobulators"
+        text: "Combobuladores totales"
       combobulators:
-        text: "Total count of all golem combobulators and golems."
+        text: "Número total de golem combobuladores de Golem y golems."
       golems:
-        text: "How many golems are working in or defending the village."
+        text: "Cuántos golems están trabajando o defendiendo la aldea."
       guards:
-        text: "All of the guards in the village."
+        text: "Todos los guardias en la aldea."
       walls:
-        text: "The total count of all walls in range of the village."
+        text: "El número total de murallas en el rango de la aldea."
     
     resources:
       totalResources:
-        text: "How many resources the village has total."
+        text: "Cuántos recursos tiene la aldea en total."
       productionRate:
-        text: "A comparison of resources gained versus resources consumed in the village."
+        text: "Una comparación de los recursos ganados contra los consumidos en la aldea."
       foodAndWaterBarOne:
-        text: "Food"
+        text: "Comida"
       foodAndWaterBarTwo:
-        text: "Water"
+        text: "Agua"
       foodAndWater:
-        text: "A comparison of all food and water resources produced versus consumed in the village."
+        text: "Una comparación de todos los recursos de comida y agua producidos contra los consumidos por la aldea."
     
     magicAndEnergy:
       essenceGenerated:
-        text: "How much essence was created in the world per day."
+        text: "Cuánta esencia fue creada en el mundo por día."
       essenceDecayed:
-        text: "How much essence decayed in the world per day, before it was used."
+        text: "Cuánta esencia se deterioró en el mundo por día, antes de que fuera usada."
       energyBarOne:
-        text: "Total Energy"
+        text: "Energía total"
       energyBarTwo:
-        text: "Maximum Energy"
+        text: "Energía total"
       energy:
-        text: "Total energy levels of the village per day, and the maximum amounts that can be stored."
+        text: "Los niveles de energía total de la aldea por día, y las cantidades máximas que pueden ser guardadas."
       influenceSpent:
-        text: "How much influence was spent casting spells per day."
+        text: "Cuánta influencia ha sido gastada en conjurar por día."
       influenceGenerated:
-        text: "How much influence was generated per day."
+        text: "Cuánta influencia ha sido generada por día."
 
   header:
     statistics:
-      text: "Statistics"
+      text: "Estadísticas"
     category:
-      text: "Category"
+      text: "Categoría"
     villagers:
-      text: "Villagers"
+      text: "Aldeanos"
     immigration:
-      text: "Immigration"
+      text: "Inmigración"
     reproduction:
-      text: "Reproduction"
+      text: "Reproducción"
     needs:
-      text: "Needs"
+      text: "Necesidades"
     animals:
-      text: "Animals"
+      text: "Animales"
     buildings:
       text: "Edificios"
     defenses:
-      text: "Defenses"
+      text: "Defensas"
     monsters:
-      text: "Monsters"
+      text: "Monstruos"
     resources:
-      text: "Resources"
+      text: "Recursos"
     magicAndEnergy:
-      text: "Magic and Energy"
+      text: "Magia y energía"
     other:
-      text: "Other"
+      text: "Otros"
     configuration:
-      text: "Configuration"
+      text: "Configuración"
 
   filter:
-    text: "Filter: $GRE0{mobOrResourceName}$WHI0 only"
+    text: "Filtro: sólo $GRE0{mobOrResourceName}$WHI0"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State

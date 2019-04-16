@@ -101,7 +101,7 @@ TO DO...
 * playSelectedObjectPanel
 * playSelectedObjectUpgradePanel
 * **playSpellBar**
-* playStatisticsPanel
+* **playStatisticsPanel**
 * **playSystemAndDataBar**
 * **playToolsBar**
 * **playVillageEfficiencyPanel**

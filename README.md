@@ -78,7 +78,7 @@ TO DO...
 * **mainMenuSkirmishNewGameWarningPanel**
 * **mainMenuSkirmishPanel**
 * **mainMenuUploadProfilePanel**
-* mapEditorMainMenuPanel
+* **mapEditorMainMenuPanel**
 * **mapEditorRegionalDataPanel**
 * mapEditorPlayRightPanel
 * **mapEditorSystemAndDataBar**
@@ -111,12 +111,12 @@ TO DO...
 * **sharedDebugData**
 * **sharedMinimapPanel**
 * **sharedMusicPanel**
-* playRightObjectDescriptionPanel
+* **playRightObjectDescriptionPanel** 
 * **sharedSettingsPanel**
 * **sharedTipsPanel**
 * **worldMapChestOpenPanel** 
 * **worldMapCorruptionThreatBar** 
-* worldMapDoomWorldPanel
+* **worldMapDoomWorldPanel** 
 * **worldMapGameModeConfigPanel**
 * **worldMapGameModeSelectPanel**
 * **worldMapGoalClaimPanel**

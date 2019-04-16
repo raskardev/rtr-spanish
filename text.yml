@@ -2418,18 +2418,18 @@ mapEditorMainMenuPanel:
   
   button:
     settings:
-      text: "Settings"
+      text: "Ajustes"
     saveAndExit:
-      text: "Save and Exit"
+      text: "Guardar y salir"
     exitOnly:
-      text: "Exit Only"
+      text: "Sólo salir."
     'yes':
-      text: "Yes!"
+      text: "Sí"
       
   header:
-    text: "Main Menu"
+    text: "Menú principal"
   exitWarning:
-    text: "$GRE1ARE YOU SURE?~$RED1YOUR MAP WILL~NOT BE SAVED!"
+    text: "$GRE1¿ESTÁS SEGURO?~$RED1¡TU MAPA NO~SERÁ GUARDADO!"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
@@ -5275,10 +5275,10 @@ playRightObjectDescriptionPanel:
     canRefineOrManufacture:
       text: "Puede refinar/fabricar"
     defensiveTower:
-      text: "Defensive Tower"
+      text: "Torre defensiva"
     
   constructionRequirements:
-    text: "Requires $RED1{buildingName}$WHI0 for $RED1{resourceName}"
+    text: "Requiere $RED1{buildingName}$WHI0 para $RED1{resourceName}"
   supportConjuntion:
     text: "$WHI0 or $RED0"
   maximumStorage:
@@ -5294,9 +5294,9 @@ playRightObjectDescriptionPanel:
   unchargedDamage:
     text: "Daño sin carga: {damageType} $RED0({damageMinimum}-{damageMaximum})"
   fires:
-    text: "Fires: $GRE1{ammoName}"
+    text: "Disparos: $GRE1{ammoName}"
   ammo:
-    text: "Ammo Per Bundle: $GRE1{amount}"
+    text: "Munición por caja: $GRE1{amount}"
   energyPerShot:
     text: "Energía por disparo: $GRE1{amount}"
   reloadTime:
@@ -5310,11 +5310,11 @@ playRightObjectDescriptionPanel:
   maximumSpawns:
     text: "Reapariciones máximas: $GRE1{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "Needs $GRE1{resourceName}$WHI0 and $GRE1{amount} Energy$WHI0 to Spawn"
+    text: "Necesita $GRE1{resourceName}$WHI0 y $GRE1{amount} de Energía $WHI0 para aparecer"
   spawnNeedsEnergy:
-    text: "Needs $GRE1{amount} Energy $WHI0to Spawn"
+    text: "Necesita $GRE1{amount} de Energía $WHI0 para aparecer"
   spawnNeedsResources:
-    text: "Needs $GRE1{resourceName}$WHI0 to Spawn"
+    text: "Necesita $GRE1{resourceName}$WHI0 para aparecer"
   rangeGenerated:
     text: "Rango generado: $GRE1{amount}"
   desirability:
@@ -5322,21 +5322,21 @@ playRightObjectDescriptionPanel:
   corruptionResistance:
     text: "Resistencia a la corrupción: $GRE1{amount}"
   providedMigrationsPerDay:
-    text: "Provided Migrations Per Day: $GRE1{amount}"
+    text: "Migraciones dadas por día: $GRE1{amount}"
   guardHousingCapacity:
-    text: "Guard Housing Capacity: $GRE1{amount}"
+    text: "Capacidad de alojamiento para guardias: $GRE1{amount}"
   housingCapacity:
     text: "Capacidad de alojamiento: $GRE1{amount}"
   workersSlots:
     text: "Huecos de trabajadores: $GRE1{amount} {mobJobName}"
   buildingSlotsProvided:
-    text: "Edificio Slots Provided: $GRE1{amount}"
+    text: "Huecos de edificios dados: $GRE1{amount}"
   acceptsEssence:
-    text: "Accepts Essence From Collectors"
+    text: "Acepta esencia de colectores"
   canCollectRawEssence:
-    text: "Can Collect Raw Essence"
+    text: "Puede recolectar esencia sin tratar"
   consumesCrylithium:
-    text: "Consumes Crylithium for Fuel"
+    text: "Consume Crylitio para combustible"
   canBuildRoads:
     text: "Puede construir caminos"
     
@@ -5640,16 +5640,16 @@ worldMapDoomWorldPanel:
   
   button:
     doomWorld:
-      text: "DOOM WORLD"
+      text: "ANIQUILAR MUNDO"
     confirmInputBox:
       comment: "Text above the input box the player would type RESET in."
-      text: "CONFIRM HERE"
+      text: "CONFIRMAR AQUÍ"
   
   warning:
-    text: "$RED1WARNING: WILL PERMANENTLY RESET ALL REGIONS ON THIS DIFFICULTY! BUT YOU WILL KEEP PERKS AND GOD EXPERIENCE."
+    text: "$RED1¡ATENCIÓN: ESTO REINICIARÁ PERMANENTEMENTE TODAS LAS REGIONES EN ESTA DIFICULTAD! AÚN MANTENDRÁS TUS VENTAJAS Y EXPERIENCIA DE DIOS."
   instructions:
     comment: "This should remain in all-caps if it can, because the {reset} variable is also in all-caps."
-    text: "$ORA1TYPE {reset} IN THE BOX BELOW TO CONFIRM YOU WANT TO DO THIS!"
+    text: "$ORA1¡ESCRIBE {reset} EN LA CAJA DE ABAJO SI QUIERES CONFIRMARLO!"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State

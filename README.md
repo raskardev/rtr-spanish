@@ -84,7 +84,7 @@ TO DO...
 * **mapEditorSystemAndDataBar**
 * **mapEditorPlayHarvestAndTerrainBar**
 * **mapEditorWorldMapListPanel**
-* **playBuildingListPanel** <------------------------>
+* **playBuildingListPanel** 
 * **playCastlePanel**
 * **playConsolePanel**
 * **playLeftJobDescriptionPanel**
@@ -97,7 +97,7 @@ TO DO...
 * **playPopulationTotalsPanel**
 * **playProblemPanel**
 * **playResourceAndInfluenceBar**
-* playSelectedMobPanel
+* **playSelectedMobPanel**
 * playSelectedObjectPanel
 * playSelectedObjectUpgradePanel
 * **playSpellBar**
